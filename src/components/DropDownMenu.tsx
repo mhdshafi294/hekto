@@ -7,6 +7,7 @@ interface DropDownMenuProps {
   label: string;
   items: any[];
   color?: string;
+  hoverColor?: string;
   bgColor?: string;
 }
 
@@ -16,6 +17,7 @@ const DropDownMenu: React.FC<DropDownMenuProps> = ({
   label,
   items,
   color,
+  hoverColor,
   bgColor,
 }) => {
   const [isOpne, setIsOpen] = useState(false);
@@ -35,6 +37,7 @@ const DropDownMenu: React.FC<DropDownMenuProps> = ({
         text-base
         cursor-pointer
         ${color ? color : ""}
+        hover:${hoverColor ? hoverColor : ""}
         `}
       >
         {label}
@@ -57,7 +60,9 @@ const DropDownMenu: React.FC<DropDownMenuProps> = ({
               className=" p-1 cursor-pointer border-b"
               onClick={item.action}
             >
-              <li className=" p-2  text-sm">{item.name}</li>
+              <li className={`p-2 text-sm ${color} hover:${hoverColor}`}>
+                {item.name}
+              </li>
             </div>
           ))}
         </ul>

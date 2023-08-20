@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 import Container from "./../Container";
 import DropDownMenu from "../DropDownMenu";
@@ -41,50 +42,41 @@ const BottomNavbar = () => {
                 <DropDownMenu
                   label={pages[0].name}
                   items={pages}
-                  color="text-pink-500"
+                  color="text-indigo-950"
+                  hoverColor="text-pink-500"
                   bgColor="bg-white-200 bg-opacity-60 "
                 />
               </li>
-              <li
-                className="text-indigo-950 text-base font-normal leading-tight cursor-pointer"
-                onClick={() => {
-                  router.push("/pages");
-                }}
+              <Link
+                href="/pages"
+                className="text-indigo-950 text-base font-normal leading-tight cursor-pointer hover:text-pink-500"
               >
-                Pages
-              </li>
-              <li
-                className="text-indigo-950 text-base font-normal leading-tight cursor-pointer"
-                onClick={() => {
-                  router.push("/products");
-                }}
+                <li>Pages</li>
+              </Link>
+              <Link
+                href="/products"
+                className="text-indigo-950 text-base font-normal leading-tight cursor-pointer hover:text-pink-500"
               >
-                Products
-              </li>
-              <li
-                className="text-indigo-950 text-base font-normal leading-tight cursor-pointer"
-                onClick={() => {
-                  router.push("/blog");
-                }}
+                <li>Products</li>
+              </Link>
+              <Link
+                href="/blog"
+                className="text-indigo-950 text-base font-normal leading-tight cursor-pointer hover:text-pink-500"
               >
-                Blog
-              </li>
-              <li
-                className="text-indigo-950 text-base font-normal leading-tight cursor-pointer"
-                onClick={() => {
-                  router.push("/shop");
-                }}
+                <li>Blog</li>
+              </Link>
+              <Link
+                href="/shop"
+                className="text-indigo-950 text-base font-normal leading-tight cursor-pointer hover:text-pink-500"
               >
-                Shop
-              </li>
-              <li
-                className="text-indigo-950 text-base font-normal leading-tight cursor-pointer"
-                onClick={() => {
-                  router.push("/contact");
-                }}
+                <li>Shop</li>
+              </Link>
+              <Link
+                href="/contact"
+                className="text-indigo-950 text-base font-normal leading-tight cursor-pointer hover:text-pink-500"
               >
-                Contact
-              </li>
+                <li>Contact</li>
+              </Link>
             </ul>
           </div>
           <div>
