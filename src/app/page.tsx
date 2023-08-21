@@ -21,6 +21,7 @@ export default function Home() {
                 name={chair.name}
                 code={chair.code}
                 price={chair.price}
+                link="/"
               />
             );
           })}
