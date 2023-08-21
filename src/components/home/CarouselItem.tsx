@@ -47,8 +47,8 @@ const CarouselItem: React.FC<CarouselItemProps> = ({
             d="M39.665 132.813C-10.335 104.813 1.88843 82.5 3.38879 66.5C3.38879 56.9 26.8315 11.9793 35.6648 5.31264C41.1648 1.14598 58.8647 -3.68736 85.6647 10.3126C146.865 35.9126 141.498 79.3126 131.165 97.8126C123.665 118.479 94.8648 154.413 39.665 132.813Z"
             fill="#00C1FE"
             stroke="#00C1FE"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
         <p className="right-[33px] top-[30px] absolute text-white text-[35px] font-bold text-center">

@@ -1,3 +1,18 @@
+export const heroItems = [
+  {
+    title: "New Furniture Collection",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    title: "old Furniture Collection",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+  {
+    title: "older Furniture Collection",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  },
+];
+
 export const chairs1 = [
   {
     img: "/chair1.1.png",

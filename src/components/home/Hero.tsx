@@ -5,24 +5,12 @@ import Image from "next/image";
 import Container from "./../Container";
 
 import CarouselItem from "./CarouselItem";
+import { heroItems } from "@/constants/contants";
 
 const Hero = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
-  const items = [
-    {
-      title: "New Furniture Collection",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
-    {
-      title: "old Furniture Collection",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
-    {
-      title: "older Furniture Collection",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    },
-  ];
+  const items = heroItems;
 
   const updateIndex = (newIndex: number) => {
     if (newIndex < 0) {

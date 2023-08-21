@@ -25,7 +25,7 @@ const Card1: React.FC<Card1Props> = ({ img, name, code, price, link }) => {
   });
 
   return (
-    <div className="group w-[270px] h-[361px] relative bg-white hover:bg-indigo-700 shadow flex flex-col items-center justify-start gap-3">
+    <div className="group w-[270px] h-[361px] relative bg-white hover:bg-indigo-700 shadow inline-flex flex-col items-center justify-start gap-3 ">
       <div className="w-[270px] h-[236px] bg-slate-50 flex justify-center items-center relative">
         <Image
           src={img}
@@ -72,8 +72,8 @@ const Card1: React.FC<Card1Props> = ({ img, name, code, price, link }) => {
                 y2="16.0837"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#1389FF" />
-                <stop offset="1" stop-color="#1DB4E7" />
+                <stop stopColor="#1389FF" />
+                <stop offset="1" stopColor="#1DB4E7" />
               </linearGradient>
             </defs>
           </svg>
@@ -102,8 +102,8 @@ const Card1: React.FC<Card1Props> = ({ img, name, code, price, link }) => {
                 y2="13.7444"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#1389FF" />
-                <stop offset="1" stop-color="#1DB4E7" />
+                <stop stopColor="#1389FF" />
+                <stop offset="1" stopColor="#1DB4E7" />
               </linearGradient>
             </defs>
           </svg>
