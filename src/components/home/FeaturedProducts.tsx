@@ -7,7 +7,7 @@ import Card1 from "../Card1";
 import ContainerBody from "../ContainerBody";
 
 const FeaturedProducts = () => {
-  const [activeIndex, setActiveIndex] = useState(2);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const updateIndex = (newIndex: number) => {
     if (newIndex < 0) {

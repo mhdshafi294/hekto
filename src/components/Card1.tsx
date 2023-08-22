@@ -4,7 +4,6 @@ import Image from "next/image";
 import { BsCart2 } from "react-icons/bs";
 import { AiOutlineHeart, AiOutlineZoomIn } from "react-icons/ai";
 import Link from "next/link";
-import { link } from "fs";
 
 interface Card1Props {
   img: string;

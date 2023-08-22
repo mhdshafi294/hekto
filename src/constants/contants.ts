@@ -39,3 +39,48 @@ export const chairs1 = [
     price: 42.0,
   },
 ];
+
+export const chairs2 = [
+  {
+    img: "/chair5.png",
+    name: "Comfort Handy Craft",
+    code: "Y523201",
+    price: 42.0,
+    oldPrice: 65.0,
+  },
+  {
+    img: "/chair6.png",
+    name: "Comfort Handy Craft",
+    code: "Y523201",
+    price: 42.0,
+    oldPrice: 65.0,
+  },
+  {
+    img: "/chair7.png",
+    name: "Comfort Handy Craft",
+    code: "Y523201",
+    price: 42.0,
+    oldPrice: 65.0,
+  },
+  {
+    img: "/chair8.png",
+    name: "Comfort Handy Craft",
+    code: "Y523201",
+    price: 42.0,
+    oldPrice: 65.0,
+  },
+  {
+    img: "/chair9.png",
+    name: "Comfort Handy Craft",
+    code: "Y523201",
+    price: 42.0,
+    oldPrice: 65.0,
+  },
+  {
+    img: "/chair10.png",
+    name: "Comfort Handy Craft",
+    code: "Y523201",
+    price: 42.0,
+    oldPrice: 65.0,
+  },
+];
