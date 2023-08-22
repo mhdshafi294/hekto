@@ -16,8 +16,8 @@ const LeatestProducts = () => {
       </h2>
       <ul className="flex justify-between items-center gap-[60px] mx-auto mb-[58px] w-[527px]">
         <button
-          className={`text-violet-950 hover:text-pink-500 text-lg font-normal text-[16px] ${
-            activeType === 0 ? "text-pink-400 underline" : ""
+          className={` hover:text-pink-500 text-sm font-normal text-[16px] ${
+            activeType === 0 ? "underline text-pink-400" : "text-violet-950"
           }`}
           onClick={() => {
             setActiveType(0);
@@ -26,8 +26,8 @@ const LeatestProducts = () => {
           <li>New Arrival</li>
         </button>
         <button
-          className={`text-violet-950 hover:text-pink-500 text-lg font-normal text-[16px] ${
-            activeType === 1 ? "text-pink-400 underline" : ""
+          className={` hover:text-pink-500 text-sm font-normal text-[16px] ${
+            activeType === 1 ? "text-pink-400 underline" : "text-violet-950"
           }`}
           onClick={() => {
             setActiveType(1);
@@ -36,8 +36,8 @@ const LeatestProducts = () => {
           <li>Best Seller</li>
         </button>
         <button
-          className={`text-violet-950 hover:text-pink-500 text-lg font-normal text-[16px] ${
-            activeType === 2 ? "text-pink-400 underline" : ""
+          className={` hover:text-pink-500 text-sm font-normal text-[16px] ${
+            activeType === 2 ? "text-pink-400 underline" : "text-violet-950"
           }`}
           onClick={() => {
             setActiveType(2);
@@ -46,8 +46,8 @@ const LeatestProducts = () => {
           <li>Featured</li>
         </button>
         <button
-          className={`text-violet-950 hover:text-pink-500 text-lg font-normal text-[16px] ${
-            activeType === 3 ? "text-pink-400 underline" : ""
+          className={` hover:text-pink-500 text-sm font-normal text-[16px] ${
+            activeType === 3 ? "text-pink-400 underline" : "text-violet-950"
           }`}
           onClick={() => {
             setActiveType(3);

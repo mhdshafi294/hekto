@@ -1,10 +1,8 @@
 "use client";
 
 import ContainerBody from "../ContainerBody";
-import Card2 from "../Card2";
-
-import Link from "next/link";
 import Card3 from "../Card3";
+
 import { ourValues } from "@/constants/constants";
 
 const ShopexOffer = () => {
