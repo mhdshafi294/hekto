@@ -5,7 +5,7 @@ import Image from "next/image";
 import Container from "./../Container";
 
 import CarouselItem from "./CarouselItem";
-import { heroItems } from "@/constants/contants";
+import { heroItems } from "@/constants/constants";
 
 const Hero = () => {
   const [activeIndex, setActiveIndex] = useState(0);

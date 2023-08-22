@@ -6,7 +6,7 @@ import { AiFillHeart, AiOutlineHeart, AiOutlineZoomIn } from "react-icons/ai";
 import Link from "next/link";
 import { useState } from "react";
 
-interface Card1Props {
+interface Card2Props {
   img: string;
   name: string;
   code: string;
@@ -15,7 +15,7 @@ interface Card1Props {
   link: string;
 }
 
-const Card2: React.FC<Card1Props> = ({
+const Card2: React.FC<Card2Props> = ({
   img,
   name,
   code,
@@ -39,8 +39,8 @@ const Card2: React.FC<Card1Props> = ({
   });
 
   return (
-    <div className="group w-[360px] h-[306px] flex flex-col justify-start gap-[16px]">
-      <div className="w-[360px] h-[269.96px] relative bg-neutral-100 flex justify-center group-hover:bg-white">
+    <div className="group w-[360px] h-[306px] flex flex-col justify-start gap-[16px] ">
+      <div className="w-[360px] h-[269.96px] relative bg-neutral-100 flex justify-center group-hover:bg-white duration-300">
         <Image
           src={img}
           width="0"
@@ -50,7 +50,7 @@ const Card2: React.FC<Card1Props> = ({
           alt=""
         />
         {price < oldPrice && (
-          <div className="w-[84.87px] h-[56.73px] left-[18px] top-[25px] absolute hidden group-hover:flex">
+          <div className="w-[84.87px] h-[56.73px] left-[18px] top-[25px] absolute hidden group-hover:flex hover:scale-110 duration-300">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="87"
@@ -73,13 +73,13 @@ const Card2: React.FC<Card1Props> = ({
         <div className="absolute left-[15px] top-[146px] hidden group-hover:flex flex-col justify-start items-center gap-[16px]">
           <Link
             href={link}
-            className="  w-[30px] h-[30px] bg-indigo-50 rounded-full shadow text-[#2F1AC4]  justify-center items-center flex"
+            className=" hover:scale-125 duration-300 w-[30px] h-[30px] bg-indigo-50 rounded-full shadow text-[#2F1AC4]  justify-center items-center flex"
           >
             <BsCart2 />
           </Link>
           {!isFavorite && (
             <button
-              className="  text-[#2F1AC4]  justify-center items-center flex"
+              className=" hover:scale-125 duration-300 text-[#2F1AC4]  justify-center items-center flex"
               onClick={toggleFavorite}
             >
               <AiOutlineHeart />
@@ -87,13 +87,13 @@ const Card2: React.FC<Card1Props> = ({
           )}
           {isFavorite && (
             <button
-              className="  text-[#2F1AC4]  justify-center items-center flex"
+              className=" hover:scale-125 duration-300 text-[#2F1AC4]  justify-center items-center flex"
               onClick={toggleFavorite}
             >
               <AiFillHeart />
             </button>
           )}
-          <button className="  text-[#2F1AC4]  justify-center items-center flex">
+          <button className=" hover:scale-125 duration-300 text-[#2F1AC4]  justify-center items-center flex">
             <AiOutlineZoomIn />
           </button>
         </div>

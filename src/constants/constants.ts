@@ -84,3 +84,30 @@ export const chairs2 = [
     oldPrice: 65.0,
   },
 ];
+
+export const ourValues = [
+  {
+    img: "free-delivery1.svg",
+    title: "Free Delivery",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.",
+  },
+  {
+    img: "cashback1.svg",
+    title: "Cashback",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.",
+  },
+  {
+    img: "premium-quality1.svg",
+    title: "Premium Quality",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.",
+  },
+  {
+    img: "24-hours-support1.svg",
+    title: "24/7 Support",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.",
+  },
+];

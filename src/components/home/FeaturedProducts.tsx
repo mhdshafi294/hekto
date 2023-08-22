@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 
-import { chairs1 } from "@/constants/contants";
+import { chairs1 } from "@/constants/constants";
 import Card1 from "../Card1";
 import ContainerBody from "../ContainerBody";
 
