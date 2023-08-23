@@ -111,3 +111,55 @@ export const ourValues = [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa purus gravida.",
   },
 ];
+
+export const trendy = [
+  {
+    img: "/chair12.png",
+    name: "Cantilever chair",
+    code: "Y523201",
+    price: 26.0,
+    oldPrice: 42.0,
+  },
+  {
+    img: "/chair13.png",
+    name: "Cantilever chair",
+    code: "Y523201",
+    price: 26.0,
+    oldPrice: 42.0,
+  },
+  {
+    img: "/chair14.png",
+    name: "Cantilever chair",
+    code: "Y523201",
+    price: 26.0,
+    oldPrice: 42.0,
+  },
+  {
+    img: "/chair15.png",
+    name: "Cantilever chair",
+    code: "Y523201",
+    price: 26.0,
+    oldPrice: 42.0,
+  },
+  {
+    img: "/chair16.png",
+    name: "Executive Seat chair",
+    code: "Y523201",
+    price: 26.0,
+    oldPrice: 32.0,
+  },
+  {
+    img: "/chair17.png",
+    name: "Executive Seat chair",
+    code: "Y523201",
+    price: 26.0,
+    oldPrice: 32.0,
+  },
+  {
+    img: "/chair18.png",
+    name: "Executive Seat chair",
+    code: "Y523201",
+    price: 26.0,
+    oldPrice: 32.0,
+  },
+];

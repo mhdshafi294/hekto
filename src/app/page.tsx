@@ -5,6 +5,7 @@ import FeaturedProducts from "@/components/home/FeaturedProducts";
 import LeatestProducts from "@/components/home/LeatestProducts";
 import ShopexOffer from "@/components/home/ShopexOffer";
 import UniqueFeatures from "@/components/home/UniqueFeatures";
+import TrendingProducts from "@/components/home/TrendingProducts";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <LeatestProducts />
       <ShopexOffer />
       <UniqueFeatures />
+      <TrendingProducts />
       <div className="mt-10"></div>
     </main>
   );
