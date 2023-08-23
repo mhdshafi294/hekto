@@ -1,7 +1,7 @@
 "use client";
 
 import ContainerBody from "../ContainerBody";
-import Card3 from "../Card3";
+import CardValues from "../CardValues";
 
 import { ourValues } from "@/constants/constants";
 
@@ -14,7 +14,7 @@ const ShopexOffer = () => {
       <div className="grid grid-cols-1 lg:grid-cols-3 xl:grid-cols-4 gap-[37px] ">
         {ourValues.map((value, index) => {
           return (
-            <Card3
+            <CardValues
               key={index}
               img={value.img}
               title={value.title}

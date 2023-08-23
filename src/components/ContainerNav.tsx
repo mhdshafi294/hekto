@@ -1,10 +1,10 @@
 "use client";
 
-interface ContainerProps {
+interface ContainerNavProps {
   children: React.ReactNode;
 }
 
-const Container: React.FC<ContainerProps> = ({ children }) => {
+const ContainerNav: React.FC<ContainerNavProps> = ({ children }) => {
   return (
     <div
       className="
@@ -21,4 +21,4 @@ const Container: React.FC<ContainerProps> = ({ children }) => {
   );
 };
 
-export default Container;
+export default ContainerNav;

@@ -3,7 +3,7 @@
 import { useRef, useState } from "react";
 
 import { chairs1 } from "@/constants/constants";
-import Card1 from "../Card1";
+import CardFeatured from "../CardFeatured";
 import ContainerBody from "../ContainerBody";
 
 const FeaturedProducts = () => {
@@ -32,7 +32,7 @@ const FeaturedProducts = () => {
           <div className="inline-flex items-center justify-between gap-[29px] w-[1168px]">
             {chairs1.map((chair, index) => {
               return (
-                <Card1
+                <CardFeatured
                   key={index}
                   img={chair.img}
                   name={chair.name}
@@ -46,7 +46,7 @@ const FeaturedProducts = () => {
           <div className="inline-flex items-center justify-between gap-[29px] w-[1168px]">
             {chairs1.map((chair, index) => {
               return (
-                <Card1
+                <CardFeatured
                   key={index}
                   img={chair.img}
                   name={chair.name}
@@ -60,7 +60,7 @@ const FeaturedProducts = () => {
           <div className="inline-flex items-center justify-between gap-[29px] w-[1168px]">
             {chairs1.map((chair, index) => {
               return (
-                <Card1
+                <CardFeatured
                   key={index}
                   img={chair.img}
                   name={chair.name}
@@ -74,7 +74,7 @@ const FeaturedProducts = () => {
           <div className="inline-flex items-center justify-between gap-[29px] w-[1168px]">
             {chairs1.map((chair, index) => {
               return (
-                <Card1
+                <CardFeatured
                   key={index}
                   img={chair.img}
                   name={chair.name}

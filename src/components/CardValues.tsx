@@ -2,13 +2,13 @@
 
 import Image from "next/image";
 
-interface Card3Props {
+interface CardValuesProps {
   img: string;
   title: string;
   description: string;
 }
 
-const Card3: React.FC<Card3Props> = ({ img, title, description }) => {
+const CardValues: React.FC<CardValuesProps> = ({ img, title, description }) => {
   return (
     <div className="w-[270px] h-80 flex-col justify-center items-center inline-flex bg-white shadow pt-[56px] pb-[45px] duration-300 hover:-translate-y-2">
       <Image src={img} width={65} height={65} alt="" />
@@ -22,4 +22,4 @@ const Card3: React.FC<Card3Props> = ({ img, title, description }) => {
   );
 };
 
-export default Card3;
+export default CardValues;

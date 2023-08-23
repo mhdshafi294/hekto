@@ -3,7 +3,7 @@
 import { useRef, useState } from "react";
 
 import ContainerBody from "../ContainerBody";
-import Card2 from "../Card2";
+import CardLeatest from "../CardLeatest ";
 import { chairs2 } from "@/constants/constants";
 
 const LeatestProducts = () => {
@@ -59,7 +59,7 @@ const LeatestProducts = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-[37px] ">
         {chairs2.map((chair, index) => {
           return (
-            <Card2
+            <CardLeatest
               key={index}
               img={chair.img}
               name={chair.name}

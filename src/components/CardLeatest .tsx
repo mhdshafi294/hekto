@@ -6,7 +6,7 @@ import { AiFillHeart, AiOutlineHeart, AiOutlineZoomIn } from "react-icons/ai";
 import Link from "next/link";
 import { useState } from "react";
 
-interface Card2Props {
+interface CardLeatestProps {
   img: string;
   name: string;
   code: string;
@@ -15,7 +15,7 @@ interface Card2Props {
   link: string;
 }
 
-const Card2: React.FC<Card2Props> = ({
+const CardLeatest: React.FC<CardLeatestProps> = ({
   img,
   name,
   code,
@@ -113,4 +113,4 @@ const Card2: React.FC<Card2Props> = ({
   );
 };
 
-export default Card2;
+export default CardLeatest;

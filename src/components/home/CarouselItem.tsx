@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Container from "../Container";
+import ContainerNav from "../ContainerNav";
 
 interface CarouselItemProps {
   title?: string;
@@ -57,7 +57,7 @@ const CarouselItem: React.FC<CarouselItemProps> = ({
           off
         </p>
       </div>
-      <Container>
+      <ContainerNav>
         <div className=" pt-[203px] flex flex-col justify-center items-start">
           <p className="text-pink-500 text-base font-bold leading-7">
             Best Furniture For Your Castle....
@@ -76,7 +76,7 @@ const CarouselItem: React.FC<CarouselItemProps> = ({
             Shop Now
           </button>
         </div>
-      </Container>
+      </ContainerNav>
     </div>
   );
 };

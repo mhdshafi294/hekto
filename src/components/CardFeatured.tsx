@@ -5,7 +5,7 @@ import { BsCart2 } from "react-icons/bs";
 import { AiOutlineHeart, AiOutlineZoomIn } from "react-icons/ai";
 import Link from "next/link";
 
-interface Card1Props {
+interface CardFeaturedProps {
   img: string;
   name: string;
   code: string;
@@ -13,7 +13,13 @@ interface Card1Props {
   link: string;
 }
 
-const Card1: React.FC<Card1Props> = ({ img, name, code, price, link }) => {
+const CardFeatured: React.FC<CardFeaturedProps> = ({
+  img,
+  name,
+  code,
+  price,
+  link,
+}) => {
   const formatter = new Intl.NumberFormat("en-US", {
     style: "currency",
     currency: "USD",
@@ -126,4 +132,4 @@ const Card1: React.FC<Card1Props> = ({ img, name, code, price, link }) => {
   );
 };
 
-export default Card1;
+export default CardFeatured;

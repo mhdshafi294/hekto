@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 
-import Container from "./../Container";
+import ContainerNav from "../ContainerNav";
 import DropDownMenu from "../DropDownMenu";
 import Search from "./Search";
 
@@ -28,7 +28,7 @@ const BottomNavbar = () => {
 
   return (
     <div className="w-full h-11 mt-4">
-      <Container>
+      <ContainerNav>
         <div className="flex justify-between items-center">
           <div className="flex justify-start items-center gap-11">
             <p
@@ -83,7 +83,7 @@ const BottomNavbar = () => {
             <Search />
           </div>
         </div>
-      </Container>
+      </ContainerNav>
     </div>
   );
 };

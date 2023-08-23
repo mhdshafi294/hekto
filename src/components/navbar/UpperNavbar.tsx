@@ -4,9 +4,10 @@ import { useContext } from "react";
 import { BsCart2 } from "react-icons/bs";
 import DropDownMenu from "../DropDownMenu";
 
-import Container from "../Container";
+import ContainerNav from "../ContainerNav";
 import { LanguageContext } from "@/context/LanguageContext";
 import useCurrency from "@/hooks/useCurrency";
+import Link from "next/link";
 
 interface UpperNavbarProps {
   email?: string;
@@ -45,7 +46,7 @@ const UpperNavbar: React.FC<UpperNavbarProps> = ({ email, phone }) => {
 
   return (
     <div className="w-full h-11 bg-violet-600">
-      <Container>
+      <ContainerNav>
         <div className="flex justify-between text-zinc-100 h-full">
           <div className="flex justify-start items-center gap-4 text-zinc-100 h-full">
             <div className="flex justify-start items-center gap-2.5 h-full">
@@ -150,10 +151,12 @@ const UpperNavbar: React.FC<UpperNavbarProps> = ({ email, phone }) => {
                 />
               </svg>
             </div>
-            <BsCart2 className="w-6 h-6 pl-[2.50px] pr-1 pt-[3.50px] pb-[3px] justify-center items-center inline-flex" />
+            <Link href="/shop pl-[2.50px] pr-1 pt-[3.50px] pb-[3px] justify-center items-center inline-flex">
+              <BsCart2 className="w-6 h-6 " />
+            </Link>
           </div>
         </div>
-      </Container>
+      </ContainerNav>
     </div>
   );
 };
