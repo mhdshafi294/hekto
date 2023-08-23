@@ -30,7 +30,7 @@ const CardFeatured: React.FC<CardFeaturedProps> = ({
   });
 
   return (
-    <div className="group w-[270px] h-[361px] relative bg-white hover:bg-indigo-700 shadow inline-flex flex-col items-center justify-start gap-3 ">
+    <div className="group w-[270px] h-[361px] relative bg-white hover:bg-indigo-700 shadow flex flex-col items-center justify-start gap-3">
       <div className="w-[270px] h-[236px] bg-slate-50 flex justify-center items-center relative">
         <Image
           src={img}

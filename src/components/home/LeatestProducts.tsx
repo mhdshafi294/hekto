@@ -56,7 +56,7 @@ const LeatestProducts = () => {
           <li>Special Offer</li>
         </button>
       </ul>
-      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-[37px] ">
+      <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-[37px] mx-auto">
         {chairs2.map((chair, index) => {
           return (
             <CardLeatest

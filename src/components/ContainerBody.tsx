@@ -8,9 +8,10 @@ const ContainerBody: React.FC<ContainerProps> = ({ children }) => {
   return (
     <div
       className="
-      w-[1168px] 
-      h-full 
-      mx-auto 
+      max-w-[1168px] 
+      mx-auto
+      md:px-0
+      sm:px-2
       "
     >
       {children}
