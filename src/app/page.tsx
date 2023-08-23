@@ -6,6 +6,7 @@ import LeatestProducts from "@/components/home/LeatestProducts";
 import ShopexOffer from "@/components/home/ShopexOffer";
 import UniqueFeatures from "@/components/home/UniqueFeatures";
 import TrendingProducts from "@/components/home/TrendingProducts";
+import DiscountItem from "@/components/home/DiscountItem";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <ShopexOffer />
       <UniqueFeatures />
       <TrendingProducts />
+      <DiscountItem />
       <div className="mt-10"></div>
     </main>
   );

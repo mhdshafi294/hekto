@@ -33,7 +33,7 @@ const TrendingProducts = () => {
           })}
         </div>
         <div className="h-[270px] flex justify-between items-stretch">
-          <div className="w-[420px] h-[270px] bg-fuchsia-50 shadow relative">
+          <div className="w-[420px] h-[270px] bg-fuchsia-50 shadow relative hover:bg-fuchsia-100 ">
             <div className="flex flex-col justify-start items-start absolute left-[25px] top-[34px]">
               <p className="text-center text-violet-950 text-[26px] font-semibold">
                 23% off in all products
@@ -54,7 +54,7 @@ const TrendingProducts = () => {
               alt=""
             />
           </div>
-          <div className="w-[420px] h-[270px] bg-indigo-50 shadow relative">
+          <div className="w-[420px] h-[270px] bg-indigo-50 shadow relative hover:bg-indigo-100">
             <div className="flex flex-col justify-start items-start absolute left-[25px] top-[34px]">
               <p className="text-center text-violet-950 text-[26px] font-semibold">
                 23% off in all products
