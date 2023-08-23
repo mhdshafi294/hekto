@@ -2,8 +2,9 @@
 
 import { useRef, useState } from "react";
 
-import { chairs1 } from "@/constants/constants";
+import { category } from "@/constants/constants";
 import CardFeatured from "../CardFeatured";
+import TopCategoryItem from "../TopCategoryItem";
 import ContainerBody from "../ContainerBody";
 
 const FeaturedProducts = () => {
@@ -32,13 +33,12 @@ const FeaturedProducts = () => {
           }}
         >
           <div className="inline-flex items-center justify-center gap-[29px] w-[1168px] h-[365px] px-2">
-            {chairs1.map((chair, index) => {
+            {category.map((chair, index) => {
               return (
-                <CardFeatured
+                <TopCategoryItem
                   key={index}
                   img={chair.img}
                   name={chair.name}
-                  code={chair.code}
                   price={chair.price}
                   link="/"
                 />
@@ -46,13 +46,12 @@ const FeaturedProducts = () => {
             })}
           </div>
           <div className="inline-flex items-center justify-center gap-[29px] w-[1168px] h-[365px] ">
-            {chairs1.map((chair, index) => {
+            {category.map((chair, index) => {
               return (
-                <CardFeatured
+                <TopCategoryItem
                   key={index}
                   img={chair.img}
                   name={chair.name}
-                  code={chair.code}
                   price={chair.price}
                   link="/"
                 />
@@ -60,13 +59,12 @@ const FeaturedProducts = () => {
             })}
           </div>
           <div className="inline-flex items-center justify-center gap-[29px] w-[1168px] h-[365px] px-2">
-            {chairs1.map((chair, index) => {
+            {category.map((chair, index) => {
               return (
-                <CardFeatured
+                <TopCategoryItem
                   key={index}
                   img={chair.img}
                   name={chair.name}
-                  code={chair.code}
                   price={chair.price}
                   link="/"
                 />

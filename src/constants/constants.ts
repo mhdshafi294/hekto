@@ -163,3 +163,26 @@ export const trendy = [
     oldPrice: 32.0,
   },
 ];
+
+export const category = [
+  {
+    img: "/chair20.png",
+    name: "Mini LCW Chair",
+    price: 56.0,
+  },
+  {
+    img: "/chair21.png",
+    name: "Mini LCW Chair",
+    price: 56.0,
+  },
+  {
+    img: "/chair22.png",
+    name: "Mini LCW Chair",
+    price: 56.0,
+  },
+  {
+    img: "/chair20.png",
+    name: "Mini LCW Chair",
+    price: 56.0,
+  },
+];
