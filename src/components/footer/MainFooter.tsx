@@ -20,7 +20,7 @@ const MainFooter = () => {
             </div>
           </div>
           <div className="flex flex-col justify-start items-start gap-[21px]">
-            <h5 className="text-black text-[22px] font-semibold">Catagories</h5>
+            <h5 className="text-black text-[18px] font-semibold">Catagories</h5>
             <div></div>
             <Link href="/" className="text-slate-400 text-base font-normal">
               Laptops & Computers
@@ -39,7 +39,7 @@ const MainFooter = () => {
             </Link>
           </div>
           <div className="flex flex-col justify-start items-start gap-[21px]">
-            <h5 className="text-black text-[22px] font-semibold">
+            <h5 className="text-black text-[18px] font-semibold">
               Customer Care
             </h5>
             <div></div>
@@ -60,7 +60,7 @@ const MainFooter = () => {
             </Link>
           </div>
           <div className="flex flex-col justify-start items-start gap-[21px]">
-            <h5 className="text-black text-[22px] font-semibold">Pages</h5>
+            <h5 className="text-black text-[18px] font-semibold">Pages</h5>
             <div></div>
             <Link href="/" className="text-slate-400 text-base font-normal">
               Blog
