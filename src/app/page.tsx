@@ -10,6 +10,7 @@ import DiscountItem from "@/components/home/DiscountItem";
 import TopCategories from "@/components/home/TopCategories";
 import Subscribe from "@/components/home/Subscribe";
 import LeatestBlog from "@/components/home/LeatestBlog";
+import Brands from "@/components/Brands";
 
 export default function Home() {
   return (
@@ -23,13 +24,7 @@ export default function Home() {
       <DiscountItem />
       <TopCategories />
       <Subscribe />
-      <Image
-        src="/brands.png"
-        width={904}
-        height={93}
-        alt=""
-        className="my-[96px] mx-auto "
-      />
+      <Brands />
       <LeatestBlog />
       <div className="mt-10"></div>
     </main>

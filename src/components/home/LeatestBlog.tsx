@@ -12,7 +12,7 @@ const LeatestBlog = () => {
       <h2 className="text-violet-950 text-[42px] font-bold mt-[71px] mb-[48px] text-center">
         Leatest Blog
       </h2>
-      <div className="grid lg:grid-cols-3 gap-[56px]">
+      <div className="grid lg:grid-cols-3 gap-[56px] mb-[115px]">
         {blogs.map((item, index) => {
           return (
             <CardBlog

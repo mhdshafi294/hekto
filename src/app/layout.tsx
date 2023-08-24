@@ -3,6 +3,7 @@ import { Inter, Roboto_Mono, Josefin_Sans, Lato } from "next/font/google";
 
 import Navbar from "@/components/navbar/Navbar";
 import { LanguageProvider } from "@/context/LanguageContext";
+import Footer from "@/components/footer/Footer";
 
 export const inter = Inter({
   subsets: ["latin"],
@@ -41,6 +42,7 @@ export default function RootLayout({
           <Navbar />
           {children}
         </LanguageProvider>
+        <Footer />
       </body>
     </html>
   );
