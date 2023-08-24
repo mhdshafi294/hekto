@@ -186,3 +186,33 @@ export const category = [
     price: 56.0,
   },
 ];
+
+export const blogs = [
+  {
+    img: "/blog1.jpeg",
+    writer: "SaberAli",
+    date: "21 August,2020",
+    title: "Top essential Trends in 2021",
+    abstract:
+      "More off this less hello samlande lied much over tightly circa horse taped mightly",
+    link: "/blog",
+  },
+  {
+    img: "/blog2.jpeg",
+    writer: "Surfauxion",
+    date: "21 August,2020",
+    title: "Top essential Trends in 2021",
+    abstract:
+      "More off this less hello samlande lied much over tightly circa horse taped mightly",
+    link: "/blog",
+  },
+  {
+    img: "/blog3.jpeg",
+    writer: "SaberAli",
+    date: "21 August,2020",
+    title: "Top essential Trends in 2021",
+    abstract:
+      "More off this less hello samlande lied much over tightly circa horse taped mightly",
+    link: "/blog",
+  },
+];

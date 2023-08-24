@@ -71,7 +71,7 @@ const FeaturedProducts = () => {
               );
             })}
           </div>
-          <div className="inline-flex items-center justify-between gap-[29px] w-[1168px]">
+          <div className="inline-flex items-center justify-center gap-[29px] w-[1168px]">
             {chairs1.map((chair, index) => {
               return (
                 <CardFeatured
