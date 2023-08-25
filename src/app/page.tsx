@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import Hero from "@/components/home/Hero";
 import FeaturedProducts from "@/components/home/FeaturedProducts";
 import LeatestProducts from "@/components/home/LeatestProducts";

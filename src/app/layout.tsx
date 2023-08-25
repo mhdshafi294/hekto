@@ -40,9 +40,9 @@ export default function RootLayout({
       <body className={josefin.className}>
         <LanguageProvider>
           <Navbar />
-          {children}
+          <div className="min-h-[calc(100vh-(637px))]">{children}</div>
+          <Footer />
         </LanguageProvider>
-        <Footer />
       </body>
     </html>
   );
