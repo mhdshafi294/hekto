@@ -24,6 +24,12 @@ const BottomNavbar = () => {
         router.push("/about");
       },
     },
+    {
+      name: "Shop",
+      action: () => {
+        router.push("/shop");
+      },
+    },
   ];
 
   return (
@@ -31,12 +37,12 @@ const BottomNavbar = () => {
       <ContainerNav>
         <div className="flex justify-between items-center">
           <div className="flex justify-start items-center gap-11">
-            <p
+            <Link
               className="text-indigo-950 text-[34px] font-bold cursor-pointer"
-              onClick={() => router.push("/")}
+              href="/"
             >
               Hekto
-            </p>
+            </Link>
             <ul className="flex justify-start items-center gap-4">
               <li>
                 <DropDownMenu
@@ -44,7 +50,7 @@ const BottomNavbar = () => {
                   items={pages}
                   color="text-indigo-950"
                   hoverColor="text-pink-500"
-                  bgColor="bg-white-200 bg-opacity-60 "
+                  bgColor="bg-white bg-opacity-90 "
                 />
               </li>
               <Link
