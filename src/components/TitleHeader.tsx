@@ -41,7 +41,10 @@ const TitleHeader: React.FC<ShopHeaderProps> = ({ listView, setListView }) => {
               About 9,620 results (0.62 seconds)
             </p>
           </div>
-          <form onSubmit={handleSubmit(onSubmit)} className="flex justify-end">
+          <form
+            onSubmit={handleSubmit(onSubmit)}
+            className="flex justify-end items-center"
+          >
             <label className="text-indigo-800 text-base font-normal mr-2">
               Per Page:{" "}
             </label>

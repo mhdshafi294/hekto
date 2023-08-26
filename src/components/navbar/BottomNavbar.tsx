@@ -33,7 +33,7 @@ const BottomNavbar = () => {
   ];
 
   return (
-    <div className="w-full h-11 mt-4">
+    <div className="w-full h-11 mt-4 mb-[22px]">
       <ContainerNav>
         <div className="flex justify-between items-center">
           <div className="flex justify-start items-center gap-11">

@@ -23,8 +23,8 @@ const TopCategoryItem: React.FC<TopCategoryItemProps> = ({
     maximumFractionDigits: 2,
   });
   return (
-    <div className="w-[269px] h-[345px] relative flex-col justify-start items-center flex gap-[27px] group">
-      <div className="hidden group-hover:block w-[260px] h-[260px] bg-violet-400 rounded-full shadow absolute top-[0px] left-[-2px] -z-10"></div>
+    <div className="w-[269px] h-[345px] duration-500 hover:w-[260px] hover:h-[340px] hover:translate-x-1 relative flex-col justify-start items-center flex gap-[27px] group">
+      <div className="hidden group-hover:block duration-500 w-[260px] group-hover:w-[270px] h-[260px] bg-violet-400 rounded-full shadow absolute top-[0px] group-hover:left-[-10px] -z-10 opacity-0 group-hover:opacity-100"></div>
       <div className="w-[269px] h-[269px] bg-slate-50 rounded-full shadow flex justify-center items-center relative">
         <Image src={img} width={178} height={178} alt="" />
         <Link

@@ -26,16 +26,16 @@ const CarouselItem: React.FC<CarouselItemProps> = ({
         className=" absolute top-0 left-[70px]"
       />
       <div className="w-[15px] h-[15px] bg-pink-500 rounded-full absolute left-[184px] top-[503px]" />
-      <div className="w-[651px] h-[651px] bg-purple-200 bg-opacity-30 rounded-full absolute right-[173px] top-[39px]" />
-      <div className="w-[648px] h-[648px] bg-purple-200 bg-opacity-30 rounded-full absolute right-[231px] top-[80px]" />
+      <div className="w-[651px] h-[651px] bg-purple-200 bg-opacity-30 rounded-full absolute right-[143px] top-[39px]" />
+      <div className="w-[648px] h-[648px] bg-purple-200 bg-opacity-30 rounded-full absolute right-[201px] top-[80px]" />
       <Image
         src="/chair.svg"
         width={629}
         height={629}
         alt=""
-        className="absolute right-[240px] top-[99px]"
+        className="absolute right-[210px] top-[99px]"
       />
-      <div className="w-[136.56px] h-[138.49px] absolute right-[185px] top-[94px] flex justify-center items-start">
+      <div className="w-[136.56px] h-[138.49px] absolute right-[155px] top-[94px] flex justify-center items-start">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="139"
