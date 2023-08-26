@@ -81,8 +81,8 @@ const DiscountItem = () => {
                     d="M17 1L6 12L1 7"
                     stroke="#7569B2"
                     strokeWidth="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>
@@ -101,8 +101,8 @@ const DiscountItem = () => {
                     d="M17 1L6 12L1 7"
                     stroke="#7569B2"
                     strokeWidth="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>
@@ -121,8 +121,8 @@ const DiscountItem = () => {
                     d="M17 1L6 12L1 7"
                     stroke="#7569B2"
                     strokeWidth="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>
@@ -141,8 +141,8 @@ const DiscountItem = () => {
                     d="M17 1L6 12L1 7"
                     stroke="#7569B2"
                     strokeWidth="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
               </span>

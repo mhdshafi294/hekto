@@ -30,7 +30,7 @@ const TitleHeader: React.FC<ShopHeaderProps> = ({ listView, setListView }) => {
   const onSubmit: SubmitHandler<FieldValues> = (data) => console.log(data);
 
   return (
-    <div className="mb-[77px] mt-[124px]">
+    <div className="mb-[74px] mt-[124px]">
       <ContainerBody>
         <div className="w-full flex justify-between items-center ">
           <div>

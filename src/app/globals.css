@@ -16,3 +16,219 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
+.check-box-indigo label:after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  background: transparent;
+  top: 4px;
+  left: 3.5px;
+  border: 1.5px solid #603eff;
+  border-top: none;
+  border-right: none;
+
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+/* .check-box label:hover::after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+} */
+
+.check-box-indigo input[type="checkbox"]:checked + label:after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+}
+
+.check-box-indigo label {
+  background-color: #e5e0fc;
+  transition-duration: 500ms;
+}
+
+.check-box-indigo label:hover {
+  scale: 1.2;
+}
+
+.check-box-indigo input[type="checkbox"]:checked + label {
+  background-color: #603eff;
+}
+
+.check-box-pink label:after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  background: transparent;
+  top: 4px;
+  left: 3.5px;
+  border: 1.5px solid #ff3eb2;
+  border-top: none;
+  border-right: none;
+
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.check-box-pink input[type="checkbox"]:checked + label:after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+}
+
+.check-box-pink label {
+  background-color: #ffdbf1;
+  transition-duration: 500ms;
+}
+
+.check-box-pink label:hover {
+  scale: 1.2;
+}
+
+.check-box-pink input[type="checkbox"]:checked + label {
+  background-color: #ff3eb2;
+}
+
+.check-box-yellow label:after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  background: transparent;
+  top: 4px;
+  left: 3.5px;
+  border: 1.5px solid #ffcc2e;
+  border-top: none;
+  border-right: none;
+
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.check-box-yellow input[type="checkbox"]:checked + label:after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+}
+
+.check-box-yellow label {
+  background-color: #fff6da;
+  transition-duration: 500ms;
+}
+
+.check-box-yellow label:hover {
+  scale: 1.2;
+}
+
+.check-box-yellow input[type="checkbox"]:checked + label {
+  background-color: #ffcc2e;
+}
+
+.check-box-yellow label:after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  background: transparent;
+  top: 4px;
+  left: 3.5px;
+  border: 1.5px solid #ffcc2e;
+  border-top: none;
+  border-right: none;
+
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.check-box-yellow input[type="checkbox"]:checked + label:after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+}
+
+.check-box-yellow label {
+  background-color: #fff6da;
+  transition-duration: 500ms;
+}
+
+.check-box-yellow label:hover {
+  scale: 1.2;
+}
+
+.check-box-yellow input[type="checkbox"]:checked + label {
+  background-color: #ffcc2e;
+}
+
+.check-box label:after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: alpha(opacity=0);
+  opacity: 0;
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 5px;
+  background: transparent;
+  top: 4px;
+  left: 3.5px;
+  border: 1.5px solid #fff;
+  border-top: none;
+  border-right: none;
+
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.check-box label:hover::after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+  filter: alpha(opacity=30);
+  opacity: 0.5;
+}
+
+.check-box input[type="checkbox"]:checked + label:after {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  filter: alpha(opacity=100);
+  opacity: 1;
+}

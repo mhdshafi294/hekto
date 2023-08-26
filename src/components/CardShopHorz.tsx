@@ -17,6 +17,7 @@ interface CardShopHorzProps {
   oldPrice: number;
   rate: productRate;
   link: string;
+  sideBar: boolean;
 }
 
 const CardShopHorz: React.FC<CardShopHorzProps> = ({
@@ -27,6 +28,7 @@ const CardShopHorz: React.FC<CardShopHorzProps> = ({
   oldPrice,
   rate,
   link,
+  sideBar,
 }) => {
   const [isFavorite, setIsFavorite] = useState(false);
 
@@ -44,7 +46,11 @@ const CardShopHorz: React.FC<CardShopHorzProps> = ({
   });
 
   return (
-    <div className="w-[1141px] h-[254px] bg-white shadow flex justify-start items-center gap-[32px] py-[18px] pl-[20px] group hover:translate-x-2 duration-500">
+    <div
+      className={` ${
+        sideBar ? "w-[921px]" : "w-[1141px]"
+      } h-[254px] bg-white shadow flex justify-start items-center gap-[32px] py-[18px] pl-[20px] group `}
+    >
       <Image
         src={img}
         width={314}
