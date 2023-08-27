@@ -401,3 +401,78 @@ export const products2 = [
     rate: productRate.four,
   },
 ];
+
+export const productsDetails = {
+  img: "/purse1.jpeg",
+  imgs: ["/purse2.jpeg", "/purse3.jpeg", "/purse4.jpeg"],
+  name: "Playwood arm chair",
+  shortDescription:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tellus porttitor purus, et volutpat sit.",
+  categories: ["accessories", "women fashion"],
+  tags: ["purse", "handy"],
+  description: {
+    main: "Aliquam dis vulputate vulputate integer sagittis. Faucibus dolor ornare faucibus vel sed et eleifend habitasse amet. Montes, mauris varius ac est bibendum. Scelerisque a, risus ac ante. Velit consectetur neque, elit, aliquet. Non varius proin sed urna, egestas consequat laoreet diam tincidunt. Magna eget faucibus cras justo, tortor sed donec tempus. Imperdiet consequat, quis diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+    more: [
+      "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+      "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+    ],
+  },
+  additionalInfo: [
+    "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+    "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+    "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+    "Aliquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu in fringilla vulputate nunc nec. Dui, massa viverr .",
+  ],
+  reviews: [
+    {
+      user: "Anna Lily",
+      rate: productRate.four,
+      review:
+        "liquam dis vulputate vulputate integer sagittis. Faucibus ds diam arcu, nulla lobortis justo netus dis. Eu productRate.fourin fringilla vulputate nunc nec. Dui, massa viverr ",
+    },
+  ],
+  video: "",
+  price: 32.0,
+  oldPrice: 40.0,
+  rate: productRate.five,
+  related: [
+    {
+      img: "/related1.jpeg",
+      name: "Mens Fashion Wear",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
+      price: 43.0,
+      oldPrice: 52.0,
+      rate: productRate.four,
+    },
+    {
+      img: "/related2.jpeg",
+      name: "Women’s Fashion",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
+      price: 67.0,
+      oldPrice: 67.0,
+      rate: productRate.four,
+    },
+    {
+      img: "/related3.jpeg",
+      name: "Wolx Dummy Fashion",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
+      price: 67.0,
+      oldPrice: 67.0,
+      rate: productRate.four,
+    },
+    {
+      img: "/related4.jpeg",
+      name: "Top Wall Digital Clock",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
+      price: 51.0,
+      oldPrice: 67.0,
+      rate: productRate.three,
+    },
+  ],
+};
