@@ -8,9 +8,13 @@ const SideFilter = () => {
 
   const onSubmit: SubmitHandler<FieldValues> = (data) => console.log(data);
 
+  // const onChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  //   console.log("change", event.target.value);
+  // };
+
   return (
     <form
-      className={`flex w-full duration-500  flex-col justify-start items-start gap-10`}
+      className={`flex w-[240px] duration-700  flex-col justify-start items-start gap-10`}
       onSubmit={handleSubmit(onSubmit)}
     >
       <div className="flex flex-col justify-start items-start gap-2">
@@ -145,11 +149,11 @@ const SideFilter = () => {
         <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-pink relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Discount")}
               type="checkbox"
               value="20% Cashback"
               id="20% Cashback"
-              name="Brand"
+              name="Discount"
               className="hidden"
               // onChange={onChange}
             />
@@ -165,11 +169,11 @@ const SideFilter = () => {
         <div className="text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-pink relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Discount")}
               type="checkbox"
               value="5% Cashback Offer"
               id="5% Cashback Offer"
-              name="Brand"
+              name="Discount"
               className="hidden"
               // onChange={onChange}
             />
@@ -185,11 +189,11 @@ const SideFilter = () => {
         <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-pink relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Discount")}
               type="checkbox"
               value="25% Cashback Offer"
               id="25% Cashback Offer"
-              name="Brand"
+              name="Discount"
               className="hidden"
               // onChange={onChange}
             />
@@ -210,11 +214,11 @@ const SideFilter = () => {
         <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-yellow relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Rating")}
               type="checkbox"
               value="4"
               id="4"
-              name="Brand"
+              name="Rating"
               className="hidden"
               // onChange={onChange}
             />
@@ -292,16 +296,16 @@ const SideFilter = () => {
         <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-yellow relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Rating")}
               type="checkbox"
-              value="4"
-              id="4"
-              name="Brand"
+              value="3"
+              id="3"
+              name="Rating"
               className="hidden"
               // onChange={onChange}
             />
             <label
-              htmlFor="4"
+              htmlFor="3"
               className="w-4 h-4 absolute top-0 cursor-pointer duration-500 bg-slate-600 "
             ></label>
           </div>
@@ -374,16 +378,16 @@ const SideFilter = () => {
         <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-yellow relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Rating")}
               type="checkbox"
-              value="4"
-              id="4"
-              name="Brand"
+              value="2"
+              id="2"
+              name="Rating"
               className="hidden"
               // onChange={onChange}
             />
             <label
-              htmlFor="4"
+              htmlFor="2"
               className="w-4 h-4 absolute top-0 cursor-pointer duration-500 bg-slate-600 "
             ></label>
           </div>
@@ -456,16 +460,16 @@ const SideFilter = () => {
         <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-yellow relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Rating")}
               type="checkbox"
-              value="4"
-              id="4"
-              name="Brand"
+              value="1"
+              id="1"
+              name="Rating"
               className="hidden"
               // onChange={onChange}
             />
             <label
-              htmlFor="4"
+              htmlFor="1"
               className="w-4 h-4 absolute top-0 cursor-pointer duration-500 bg-slate-600 "
             ></label>
           </div>
@@ -543,11 +547,11 @@ const SideFilter = () => {
         <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-pink relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Categories")}
               type="checkbox"
               value="Prestashop"
               id="Prestashop"
-              name="Brand"
+              name="Categories"
               className="hidden"
               // onChange={onChange}
             />
@@ -563,11 +567,11 @@ const SideFilter = () => {
         <div className="text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-pink relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Categories")}
               type="checkbox"
               value="Magento"
               id="Magento"
-              name="Brand"
+              name="Categories"
               className="hidden"
               // onChange={onChange}
             />
@@ -583,11 +587,11 @@ const SideFilter = () => {
         <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-pink relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Categories")}
               type="checkbox"
               value="Bigcommerce"
               id="Bigcommerce"
-              name="Brand"
+              name="Categories"
               className="hidden"
               // onChange={onChange}
             />
@@ -603,11 +607,11 @@ const SideFilter = () => {
         <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-pink relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Categories")}
               type="checkbox"
               value="osCommerce"
               id="osCommerce"
-              name="Brand"
+              name="Categories"
               className="hidden"
               // onChange={onChange}
             />
@@ -623,11 +627,11 @@ const SideFilter = () => {
         <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-pink relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Categories")}
               type="checkbox"
               value="3dcart"
               id="3dcart"
-              name="Brand"
+              name="Categories"
               className="hidden"
               // onChange={onChange}
             />
@@ -643,11 +647,11 @@ const SideFilter = () => {
         <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-pink relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Categories")}
               type="checkbox"
               value="Bags"
               id="Bags"
-              name="Brand"
+              name="Categories"
               className="hidden"
               // onChange={onChange}
             />
@@ -663,11 +667,11 @@ const SideFilter = () => {
         <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-pink relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Categories")}
               type="checkbox"
               value="Accessories"
               id="Accessories"
-              name="Brand"
+              name="Categories"
               className="hidden"
               // onChange={onChange}
             />
@@ -683,11 +687,11 @@ const SideFilter = () => {
         <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-pink relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Categories")}
               type="checkbox"
               value="Jewellery"
               id="Jewellery"
-              name="Brand"
+              name="Categories"
               className="hidden"
               // onChange={onChange}
             />
@@ -703,11 +707,11 @@ const SideFilter = () => {
         <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-pink relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Categories")}
               type="checkbox"
               value="Watches"
               id="Watches"
-              name="Brand"
+              name="Categories"
               className="hidden"
               // onChange={onChange}
             />
@@ -728,11 +732,11 @@ const SideFilter = () => {
         <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-pink relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Price")}
               type="checkbox"
               value="$0.00 - $150.00"
               id="$0.00 - $150.00"
-              name="Brand"
+              name="Price"
               className="hidden"
               // onChange={onChange}
             />
@@ -748,11 +752,11 @@ const SideFilter = () => {
         <div className="text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-pink relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Price")}
               type="checkbox"
               value="$150.00 - $350.00"
               id="$150.00 - $350.00"
-              name="Brand"
+              name="Price"
               className="hidden"
               // onChange={onChange}
             />
@@ -768,11 +772,11 @@ const SideFilter = () => {
         <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-pink relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Price")}
               type="checkbox"
               value="$150.00 - $504.00"
               id="$150.00 - $504.00"
-              name="Brand"
+              name="Price"
               className="hidden"
               // onChange={onChange}
             />
@@ -788,11 +792,11 @@ const SideFilter = () => {
         <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[9px] group">
           <div className="check-box-pink relative w-4 h-4">
             <input
-              {...register("Brand")}
+              {...register("Price")}
               type="checkbox"
               value="$450.00 +"
               id="$450.00 +"
-              name="Brand"
+              name="Price"
               className="hidden"
               // onChange={onChange}
             />
@@ -815,11 +819,11 @@ const SideFilter = () => {
           <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[4px] group">
             <div className="check-box relative w-4 h-4 ">
               <input
-                {...register("Brand")}
+                {...register("Color")}
                 type="checkbox"
                 value="Blue"
                 id="Blue"
-                name="Brand"
+                name="Color"
                 className="hidden"
                 // onChange={onChange}
               />
@@ -835,11 +839,11 @@ const SideFilter = () => {
           <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[4px] group">
             <div className="check-box relative w-4 h-4 ">
               <input
-                {...register("Brand")}
+                {...register("Color")}
                 type="checkbox"
                 value="Orange"
                 id="Orange"
-                name="Brand"
+                name="Color"
                 className="hidden"
                 // onChange={onChange}
               />
@@ -855,11 +859,11 @@ const SideFilter = () => {
           <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[3px] group">
             <div className="check-box relative w-4 h-4 ">
               <input
-                {...register("Brand")}
+                {...register("Color")}
                 type="checkbox"
                 value="Brown"
                 id="Brown"
-                name="Brand"
+                name="Color"
                 className="hidden"
                 // onChange={onChange}
               />
@@ -875,11 +879,11 @@ const SideFilter = () => {
           <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[3px] group">
             <div className="check-box relative w-4 h-4 ">
               <input
-                {...register("Brand")}
+                {...register("Color")}
                 type="checkbox"
                 value="Green"
                 id="Green"
-                name="Brand"
+                name="Color"
                 className="hidden"
                 // onChange={onChange}
               />
@@ -895,11 +899,11 @@ const SideFilter = () => {
           <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[3px] group">
             <div className="check-box relative w-4 h-4 ">
               <input
-                {...register("Brand")}
+                {...register("Color")}
                 type="checkbox"
                 value="Purple"
                 id="Purple"
-                name="Brand"
+                name="Color"
                 className="hidden"
                 // onChange={onChange}
               />
@@ -915,11 +919,11 @@ const SideFilter = () => {
           <div className=" text-slate-500 text-base font-normal flex justify-start items-center gap-[3px] group">
             <div className="check-box relative w-4 h-4 ">
               <input
-                {...register("Brand")}
+                {...register("Color")}
                 type="checkbox"
                 value="Sky"
                 id="Sky"
-                name="Brand"
+                name="Color"
                 className="hidden"
                 // onChange={onChange}
               />

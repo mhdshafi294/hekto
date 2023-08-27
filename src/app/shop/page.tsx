@@ -29,10 +29,6 @@ const Shop = () => {
 
   const onSubmit: SubmitHandler<FieldValues> = (data) => console.log(data);
 
-  // const onChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-  //   console.log("change", event.target.value);
-  // };
-
   return (
     <div>
       <PageTitle title="Shop Grid Default" />
@@ -45,11 +41,13 @@ const Shop = () => {
           Filter
         </button>
         <div className="flex justify-start items-start">
-          {sideBar && (
+          {true && (
             <div
               className={`${
-                sideBar ? "w-[300px] " : "hidden w-0 "
-              } duration-500 `}
+                sideBar
+                  ? "w-[240px] "
+                  : "w-0 opacity-0 -z-50 -translate-x-[40vw]"
+              } duration-700 `}
             >
               <SideFilter />
             </div>
