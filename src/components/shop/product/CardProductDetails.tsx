@@ -16,9 +16,13 @@ import { BiLogoFacebook } from "react-icons/bi";
 
 import { productsDetails } from "@/constants/constants";
 
-const CardProductDetails = (props: any) => {
-  const { params, searchParams } = props;
+interface CardProductDetailsProps {
+  productsDetails: any;
+}
 
+const CardProductDetails: React.FC<CardProductDetailsProps> = ({
+  productsDetails,
+}) => {
   const [isFavorite, setIsFavorite] = useState(false);
 
   const toggleFavorite = () => {
