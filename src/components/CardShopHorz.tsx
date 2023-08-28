@@ -48,7 +48,7 @@ const CardShopHorz: React.FC<CardShopHorzProps> = ({
     <div
       className={` ${
         sideBar ? "w-[921px]" : "w-[1141px]"
-      } h-[254px] bg-white shadow flex justify-start items-center gap-[32px] py-[18px] pl-[20px] group duration-700`}
+      } h-[254px] bg-white shadow flex justify-start items-center gap-[32px] py-[18px] pl-[20px] group duration-700 hover:translate-x-2`}
     >
       <Image
         src={img}

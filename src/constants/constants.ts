@@ -463,7 +463,7 @@ export const productsDetails = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
       price: 67.0,
       oldPrice: 67.0,
-      rate: productRate.four,
+      rate: productRate.five,
     },
     {
       img: "/related4.jpeg",

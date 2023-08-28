@@ -29,7 +29,7 @@ const ProductInfo: React.FC<ProductInfoProps> = ({
     setActiveIndex(newIndex);
   };
   return (
-    <div className=" w-full h-[649px] bg-violet-50 mt-[131px] py-[107px]">
+    <div className=" w-full h-[649px] bg-violet-50 mt-[131px] mb-[126px] py-[107px]">
       <ContainerBody>
         <div>
           <div className="flex justify-start items-center gap-[85px] mb-[60px]">
