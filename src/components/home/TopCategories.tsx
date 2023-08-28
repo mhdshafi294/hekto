@@ -7,7 +7,7 @@ import CardFeatured from "../CardFeatured";
 import TopCategoryItem from "../TopCategoryItem";
 import ContainerBody from "../ContainerBody";
 
-const FeaturedProducts = () => {
+const TopCategories = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const updateIndex = (newIndex: number) => {
@@ -103,4 +103,4 @@ const FeaturedProducts = () => {
   );
 };
 
-export default FeaturedProducts;
+export default TopCategories;
