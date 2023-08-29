@@ -476,3 +476,66 @@ export const productsDetails = {
     },
   ],
 };
+
+export const productsCart = [
+  {
+    id: 1,
+    img: "/cart1.jpeg",
+    name: "Ut diam consequat",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
+    price: 32.0,
+    oldPrice: 52.0,
+    color: "Brown",
+    size: "XL",
+    rate: productRate.four,
+  },
+  {
+    id: 2,
+    img: "/cart2.jpeg",
+    name: "Vel faucibus posuere",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
+    price: 32.0,
+    oldPrice: 52.0,
+    color: "Brown",
+    size: "XL",
+    rate: productRate.four,
+  },
+  {
+    id: 3,
+    img: "/cart3.jpeg",
+    name: "Ac vitae vestibulume",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
+    price: 32.0,
+    oldPrice: 52.0,
+    color: "Brown",
+    size: "XL",
+    rate: productRate.four,
+  },
+  {
+    id: 4,
+    img: "/cart4.jpeg",
+    name: "Elit massa diam",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
+    price: 32.0,
+    oldPrice: 52.0,
+    color: "Brown",
+    size: "XL",
+    rate: productRate.four,
+  },
+  {
+    id: 5,
+    img: "/cart5.jpeg",
+    name: "Proin pharetra elementum",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
+    price: 32.0,
+    oldPrice: 52.0,
+    color: "Brown",
+    size: "XL",
+    rate: productRate.four,
+  },
+];

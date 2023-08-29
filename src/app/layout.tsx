@@ -4,6 +4,7 @@ import { Inter, Roboto_Mono, Josefin_Sans, Lato } from "next/font/google";
 import Navbar from "@/components/navbar/Navbar";
 import { LanguageProvider } from "@/context/LanguageContext";
 import Footer from "@/components/footer/Footer";
+import { ShopContextProvider } from "@/context/ShopContext";
 
 export const inter = Inter({
   subsets: ["latin"],
@@ -39,9 +40,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={josefin.className}>
         <LanguageProvider>
-          <Navbar />
-          <div className="min-h-[calc(100vh-(637px))]">{children}</div>
-          <Footer />
+          <ShopContextProvider>
+            <Navbar />
+            <div className="min-h-[calc(100vh-(637px))]">{children}</div>
+            <Footer />
+          </ShopContextProvider>
         </LanguageProvider>
       </body>
     </html>

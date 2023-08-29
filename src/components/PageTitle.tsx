@@ -7,7 +7,7 @@ interface PageTitleProps {
 
 const PageTitle: React.FC<PageTitleProps> = ({ title }) => {
   return (
-    <div className="w-full h-[286px] bg-violet-50 py-[96px]">
+    <div className="w-full h-[286px] bg-violet-50 py-[96px] mb-[131px]">
       <ContainerBody>
         <h2 className=" text-indigo-950 text-4xl font-bold">{title}</h2>
         <p className=" text-black text-base font-medium mt-[9px]">
