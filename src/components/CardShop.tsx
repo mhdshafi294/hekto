@@ -2,12 +2,14 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
+import { useContext, useState } from "react";
 
 import { BsCart2 } from "react-icons/bs";
 import { AiFillHeart, AiOutlineHeart, AiOutlineZoomIn } from "react-icons/ai";
+import { ShopContext } from "@/context/ShopContext";
 
 interface CardShopProps {
+  id: number;
   img: string;
   name: string;
   price: number;
@@ -16,6 +18,7 @@ interface CardShopProps {
 }
 
 const CardShop: React.FC<CardShopProps> = ({
+  id,
   img,
   name,
   price,
@@ -28,13 +31,23 @@ const CardShop: React.FC<CardShopProps> = ({
     setIsFavorite((prev) => !prev);
   };
 
+  const { cartItems, addToCart, removeFromCart, updateCartItemCount } =
+    useContext(ShopContext);
+
+  const toggleAddedToCart = () => {
+    if (cartItems[id] > 0) {
+      removeFromCart(id);
+    } else {
+      addToCart(id);
+    }
+  };
+
   const formatter = new Intl.NumberFormat("en-US", {
     style: "currency",
     currency: "USD",
 
-    // These options are needed to round to whole numbers if that's what you want.
-    minimumFractionDigits: 2, // (this suffices for whole numbers, but will print 2500.10 as $2,500.1)
-    maximumFractionDigits: 2, // (causes 2500.99 to be printed as $2,501)
+    minimumFractionDigits: 2,
+    maximumFractionDigits: 2,
   });
 
   return (
@@ -49,12 +62,14 @@ const CardShop: React.FC<CardShopProps> = ({
           alt=""
         />
         <div className=" absolute left-[18px] bottom-[106px] hidden group-hover:flex flex-col justify-end items-center gap-[10px]">
-          <Link
-            href={link}
-            className=" hover:scale-125 duration-300 w-[30px] h-[30px] bg-white rounded-full shadow flex justify-center items-center"
+          <button
+            onClick={() => toggleAddedToCart()}
+            className={`${
+              cartItems[id] > 0 ? "bg-green-300" : "bg-white"
+            } hover:scale-125 duration-300 w-[30px] h-[30px] rounded-full shadow flex justify-center items-center`}
           >
             <BsCart2 />
-          </Link>
+          </button>
           <button className=" hover:scale-125 duration-300  w-4 h-4 justify-center items-center flex">
             <AiOutlineZoomIn />
           </button>

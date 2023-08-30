@@ -1,13 +1,16 @@
 "use client";
 
 import { useForm, SubmitHandler } from "react-hook-form";
+import { useContext, useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
 
 import ContainerBody from "@/components/ContainerBody";
 import PageTitle from "@/components/PageTitle";
-import { productsCart } from "@/constants/constants";
 import CartItem from "@/components/shop/cart/CartItem";
-import { useContext } from "react";
+
 import { ShopContext } from "@/context/ShopContext";
+
+import { productsCart, products1 } from "@/constants/constants";
 
 type Inputs = {
   city: string;
@@ -16,7 +19,20 @@ type Inputs = {
 };
 
 const Cart = () => {
-  const { getTotalCartAmount } = useContext(ShopContext);
+  const { cartItems, getTotalCartAmount, checkout } = useContext(ShopContext);
+  const [shippingAndTax, setShippingAndTax] = useState(true);
+  const router = useRouter();
+
+  const toggleShippingAndTax = () => {
+    setShippingAndTax((prev) => !prev);
+  };
+
+  const shippingAndTaxPrice = useMemo(() => {
+    if (shippingAndTax) {
+      return 35;
+    }
+    return 0;
+  }, [shippingAndTax]);
 
   const {
     register,
@@ -52,9 +68,11 @@ const Cart = () => {
               <p className="text-blue-900 text-xl font-bold">Total</p>
             </div>
             <div className="w-full mt-[48px]">
-              {productsCart.map((productsCart, index) => (
-                <CartItem {...productsCart} />
-              ))}
+              {products1.map((product, index) => {
+                if (cartItems[product.id] !== 0) {
+                  return <CartItem key={index} {...product} />;
+                }
+              })}
             </div>
           </div>
           <div className="max-w-[371px] flex flex-col justify-start items-center">
@@ -77,7 +95,9 @@ const Cart = () => {
                 <div className="flex justify-between items-center">
                   <p className="text-blue-900 text-lg font-semibold">Totals:</p>
                   <div className="text-blue-950 text-base font-normal">
-                    {formatter.format(getTotalCartAmount() + 300)}
+                    {formatter.format(
+                      getTotalCartAmount() + shippingAndTaxPrice
+                    )}
                   </div>
                 </div>
                 <hr className="w-full h-[0px] border border-slate-200 mt-[13px]" />
@@ -87,13 +107,16 @@ const Cart = () => {
                   type="checkbox"
                   className="w-2 h-2 accent-green-500"
                   defaultChecked={true}
-                  onChange={() => {}}
+                  onChange={() => toggleShippingAndTax()}
                 />
                 Shipping & taxes calculated at checkout
               </label>
               <button
                 className="w-[312px] h-10 bg-green-500 rounded-[3px] flex justify-center items-center text-white text-sm font-bold mt-[35px] hover:bg-green-600"
-                onClick={() => {}}
+                onClick={() => {
+                  checkout();
+                  router.push("/shop");
+                }}
               >
                 Proceed To Checkout
               </button>

@@ -16,6 +16,7 @@ import SearchPrice from "@/components/SearchPrice";
 import SideFilter from "@/components/SideFilter";
 
 const Shop = () => {
+  
   const [listView, setListView] = useState(false);
   const [sideBar, setSideBar] = useState(false);
 
@@ -64,6 +65,7 @@ const Shop = () => {
                 return (
                   <CardShop
                     key={index}
+                    id={product.id}
                     img={product.img}
                     name={product.name}
                     price={product.price}

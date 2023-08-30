@@ -22,8 +22,13 @@ const CartItem: React.FC<CartItemProps> = ({
   size,
   rate,
 }) => {
-  const { cartItems, addToCart, removeFromCart, updateCartItemCount } =
-    useContext(ShopContext);
+  const {
+    cartItems,
+    addToCart,
+    removeFromCart,
+    updateCartItemCount,
+    removeAllFromCart,
+  } = useContext(ShopContext);
 
   const formatter = new Intl.NumberFormat("en-US", {
     style: "currency",
@@ -35,8 +40,8 @@ const CartItem: React.FC<CartItemProps> = ({
 
   return (
     <div className="max-w-[718px] mb-[18px]">
-      <div className="flex justify-between items-center">
-        <div className="flex items-center">
+      <div className="flex justify-between items-center relative">
+        <div className="flex items-center ">
           <div className="w-[83px] h-[87px] rounded-[3px] relative">
             <Image
               src={img}
@@ -47,7 +52,7 @@ const CartItem: React.FC<CartItemProps> = ({
             />
             <button
               className=" absolute top-0 right-0 w-3 h-3 flex justify-center items-center translate-x-1/2 -translate-y-1/2"
-              onChange={(e) => updateCartItemCount(0, id)}
+              onClick={() => removeAllFromCart(id)}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -85,31 +90,33 @@ const CartItem: React.FC<CartItemProps> = ({
             <p className="text-slate-400 text-xs font-normal">Size: {size}</p>
           </div>
         </div>
-        <p className="text-blue-950 text-sm font-normal">
-          {formatter.format(price)}
-        </p>
-        <div className="w-[51px] h-[15px] bg-zinc-100 flex justify-between items-center mr-[30px]">
-          <button
-            onClick={() => removeFromCart(id)}
-            className="w-3 h-[15px] bg-gray-200 flex justify-center items-center"
-          >
-            -
-          </button>
-          <input
-            value={cartItems[id]}
-            onChange={(e) => updateCartItemCount(Number(e.target.value), id)}
-            className="bg-zinc-100 focus:outline-none w-[27px] h-[15px] flex justify-center items-center text-center text-stone-700 text-xs font-normal"
-          />
-          <button
-            onClick={() => addToCart(id)}
-            className="w-3 h-[15px] bg-gray-200 flex justify-center items-center"
-          >
-            +
-          </button>
+        <div className="flex justify-between relative w-[57%]">
+          <p className="text-blue-950 text-sm font-normal">
+            {formatter.format(price)}
+          </p>
+          <div className="w-[51px] h-[15px] bg-zinc-100 flex justify-between items-center absolute right-[45%]">
+            <button
+              onClick={() => removeFromCart(id)}
+              className="w-3 h-[15px] bg-gray-200 flex justify-center items-center"
+            >
+              -
+            </button>
+            <input
+              value={cartItems[id]}
+              onChange={(e) => updateCartItemCount(Number(e.target.value), id)}
+              className="bg-zinc-100 focus:outline-none w-[27px] h-[15px] flex justify-center items-center text-center text-stone-700 text-xs font-normal"
+            />
+            <button
+              onClick={() => addToCart(id)}
+              className="w-3 h-[15px] bg-gray-200 flex justify-center items-center"
+            >
+              +
+            </button>
+          </div>
+          <p className="text-blue-950 text-sm font-normal">
+            {formatter.format(price * cartItems[id])}
+          </p>
         </div>
-        <p className="text-blue-950 text-sm font-normal">
-          {formatter.format(price * cartItems[id])}
-        </p>
       </div>
       <hr className="w-full h-[0px] border border-slate-200 mt-[15px]" />
     </div>

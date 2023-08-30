@@ -151,7 +151,10 @@ const UpperNavbar: React.FC<UpperNavbarProps> = ({ email, phone }) => {
                 />
               </svg>
             </div>
-            <Link href="/shop pl-[2.50px] pr-1 pt-[3.50px] pb-[3px] justify-center items-center inline-flex">
+            <Link
+              href="/shop/cart"
+              className="pl-[2.50px] pr-1 pt-[3.50px] pb-[3px] justify-center items-center inline-flex"
+            >
               <BsCart2 className="w-6 h-6 " />
             </Link>
           </div>

@@ -227,6 +227,7 @@ export enum productRate {
 
 export const products1 = [
   {
+    id: 7,
     img: "/p1.png",
     name: "Vel elit euismod",
     description:
@@ -236,6 +237,7 @@ export const products1 = [
     rate: productRate.four,
   },
   {
+    id: 8,
     img: "/p2.png",
     name: "Ultricies condimentum imperdiet",
     description:
@@ -245,6 +247,7 @@ export const products1 = [
     rate: productRate.four,
   },
   {
+    id: 9,
     img: "/p3.png",
     name: "Vitae suspendisse sed",
     description:
@@ -254,6 +257,7 @@ export const products1 = [
     rate: productRate.four,
   },
   {
+    id: 10,
     img: "/p4.png",
     name: "Sed at fermentum",
     description:
@@ -263,6 +267,7 @@ export const products1 = [
     rate: productRate.four,
   },
   {
+    id: 11,
     img: "/p5.png",
     name: "Vel elit euismod",
     description:
@@ -272,6 +277,7 @@ export const products1 = [
     rate: productRate.four,
   },
   {
+    id: 12,
     img: "/p6.png",
     name: "Vestibulum magna laoreet",
     description:
@@ -281,6 +287,7 @@ export const products1 = [
     rate: productRate.four,
   },
   {
+    id: 13,
     img: "/p7.png",
     name: "Sollicitudin amet orci",
     description:
@@ -290,6 +297,7 @@ export const products1 = [
     rate: productRate.four,
   },
   {
+    id: 14,
     img: "/p8.png",
     name: "Sed at fermentum",
     description:
@@ -299,6 +307,7 @@ export const products1 = [
     rate: productRate.four,
   },
   {
+    id: 15,
     img: "/p9.png",
     name: "Vel elit euismod",
     description:
@@ -308,6 +317,7 @@ export const products1 = [
     rate: productRate.four,
   },
   {
+    id: 16,
     img: "/p10.png",
     name: "Vestibulum magna laoreet",
     description:
@@ -317,6 +327,7 @@ export const products1 = [
     rate: productRate.four,
   },
   {
+    id: 17,
     img: "/p11.png",
     name: "Sollicitudin amet orci",
     description:
@@ -326,12 +337,73 @@ export const products1 = [
     rate: productRate.four,
   },
   {
+    id: 18,
     img: "/p12.png",
     name: "Sed at fermentum",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
     price: 26.0,
     oldPrice: 42.0,
+    rate: productRate.four,
+  },
+  {
+    id: 1,
+    img: "/cart1.jpeg",
+    name: "Ut diam consequat",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
+    price: 32.0,
+    oldPrice: 52.0,
+    color: "Brown",
+    size: "XL",
+    rate: productRate.four,
+  },
+  {
+    id: 2,
+    img: "/cart2.jpeg",
+    name: "Vel faucibus posuere",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
+    price: 32.0,
+    oldPrice: 52.0,
+    color: "Brown",
+    size: "XL",
+    rate: productRate.four,
+  },
+  {
+    id: 3,
+    img: "/cart3.jpeg",
+    name: "Ac vitae vestibulume",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
+    price: 32.0,
+    oldPrice: 52.0,
+    color: "Brown",
+    size: "XL",
+    rate: productRate.four,
+  },
+  {
+    id: 4,
+    img: "/cart4.jpeg",
+    name: "Elit massa diam",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
+    price: 32.0,
+    oldPrice: 52.0,
+    color: "Brown",
+    size: "XL",
+    rate: productRate.four,
+  },
+  {
+    id: 5,
+    img: "/cart5.jpeg",
+    name: "Proin pharetra elementum",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Magna in est adipiscing in phasellus non in justo.",
+    price: 32.0,
+    oldPrice: 52.0,
+    color: "Brown",
+    size: "XL",
     rate: productRate.four,
   },
 ];
