@@ -19,7 +19,7 @@ const EnterEmail = () => {
         {...register("email", { required: true })}
       />
       <button
-        className="w-[135px] h-full bg-pink-500 rounded-[3px] flex justify-center items-center text-indigo-50 text-base font-medium"
+        className="w-[135px] h-full bg-pink-500 hover:bg-pink-600 rounded-[3px] flex justify-center items-center text-indigo-50 text-base font-medium"
         type="submit"
       >
         Sign Up

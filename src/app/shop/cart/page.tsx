@@ -115,7 +115,7 @@ const Cart = () => {
                 className="w-[312px] h-10 bg-green-500 rounded-[3px] flex justify-center items-center text-white text-sm font-bold mt-[35px] hover:bg-green-600"
                 onClick={() => {
                   checkout();
-                  router.push("/shop");
+                  router.push("/shop/completed");
                 }}
               >
                 Proceed To Checkout
