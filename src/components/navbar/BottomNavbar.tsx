@@ -30,6 +30,12 @@ const BottomNavbar = () => {
         router.push("/shop");
       },
     },
+    {
+      name: "Demo",
+      action: () => {
+        router.push("/shop/demo");
+      },
+    },
   ];
 
   return (

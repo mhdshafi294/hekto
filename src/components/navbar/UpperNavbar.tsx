@@ -97,8 +97,8 @@ const UpperNavbar: React.FC<UpperNavbarProps> = ({ email, phone }) => {
               color="text-zinc-100 "
               bgColor="bg-violet-600"
             />
-            <div
-              onClick={() => {}}
+            <Link
+              href="/login"
               className="
                 transition
                 flex
@@ -124,7 +124,7 @@ const UpperNavbar: React.FC<UpperNavbarProps> = ({ email, phone }) => {
                   fill="white"
                 />
               </svg>
-            </div>
+            </Link>
             <div
               onClick={() => {}}
               className="
