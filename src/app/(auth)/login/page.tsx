@@ -38,13 +38,13 @@ const Login = () => {
               <input
                 defaultValue=""
                 {...register("email")}
-                className="w-[432px] h-[52px] bg-white rounded-sm border border-slate-300 mt-[37px] p-[13px] focus:border-slate-500 focus:outline-none focus:scale-[102%] duration-500"
+                className="w-[432px] h-[52px] bg-white rounded-sm border border-slate-300 mt-[37px] p-[13px] focus:border-slate-500 focus:outline-none focus:scale-[101%] duration-500"
                 placeholder="Email Address"
               />
               <input
                 defaultValue=""
                 {...register("password")}
-                className="w-[432px] h-[52px] bg-white rounded-sm border border-slate-300 mt-[32px] mb-[13px] p-[13px] focus:border-slate-500 focus:outline-none focus:scale-[102%] duration-500"
+                className="w-[432px] h-[52px] bg-white rounded-sm border border-slate-300 mt-[32px] mb-[13px] p-[13px] focus:border-slate-500 focus:outline-none focus:scale-[101%] duration-500"
                 placeholder="Password"
               />
               <Link

@@ -10,7 +10,7 @@ interface CardValuesProps {
 
 const CardValues: React.FC<CardValuesProps> = ({ img, title, description }) => {
   return (
-    <div className="w-[270px] h-80 flex-col justify-center items-center inline-flex bg-white shadow pt-[56px] pb-[45px] duration-300 hover:-translate-y-2">
+    <div className="w-[270px] h-80 flex-col justify-center items-center inline-flex bg-white shadow pt-[56px] pb-[45px] duration-300 hover:-translate-y-2 hover:border-b-4 hover:border-amber-500">
       <Image src={img} width={65} height={65} alt="" />
       <p className="text-violet-950 text-[22px] font-semibold mt-[27px] mb-[20px]">
         {title}

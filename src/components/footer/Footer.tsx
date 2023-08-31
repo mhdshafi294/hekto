@@ -3,7 +3,7 @@ import BottomFooter from "./BottomFooter";
 
 const Footer = () => {
   return (
-    <div className=" mt-auto">
+    <div className=" mt-[83px]">
       <MainFooter />
       <BottomFooter />
     </div>

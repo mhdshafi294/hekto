@@ -1,6 +1,6 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useState } from "react";
 
 import { chairs1 } from "@/constants/constants";
 import CardFeatured from "../CardFeatured";
@@ -29,7 +29,7 @@ const FeaturedProducts = () => {
           className="whitespace-nowrap duration-1000"
           style={{ transform: `translate(-${activeIndex * 100}%)` }}
         >
-          <div className="inline-flex items-center justify-center gap-[29px] w-[1168px] h-[365px] px-2">
+          <div className="inline-flex items-center justify-start gap-[29px] w-[1168px] h-[365px] px-2">
             {chairs1.map((chair, index) => {
               return (
                 <CardFeatured
