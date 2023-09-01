@@ -75,7 +75,7 @@ const About = () => {
           })}
         </div>
       </ContainerBody>
-      <div className="w-full h-[503px] bg-slate-50 mt-[133px] pt-[71px] pb-[77px] flex flex-col justify-start items-center">
+      <div className="w-full h-[503px] bg-slate-50 mt-[133px] mb-[305px] pt-[71px] pb-[77px] flex flex-col justify-start items-center">
         <h2 className="text-black text-[42px] font-bold leading-relaxed">
           Our Client Say!
         </h2>

@@ -611,3 +611,247 @@ export const productsCart = [
     rate: productRate.four,
   },
 ];
+
+export const blogsDetailed = [
+  {
+    id: 1,
+    img: "/blogd1.jpg",
+    img1: "/blogd1.jpg",
+    video: "https://youtu.be/xLTCivIB4kU?si=-OHSh4imoqWQuBjx",
+    writer: "Surf Auxion",
+    date: "August 09 2020",
+    title: "Mauris at orci non vulputate diam tincidunt nec.",
+    abstract:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit facilisis quis auctor pretium ipsum, eu rutrum. Condimentum eu malesuada vitae ultrices in in neque, porta dignissim. Adipiscing purus, cursus vulputate id id dictum at.",
+    quote: `“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo dictum sapien, amet, consequat.
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo dictum sapien, amet, consequat
+    
+    toamk risusu”`,
+    p1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
+    p2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
+    p3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
+    p4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
+    link: "/blog/1",
+    categories: ["women", "hobbies"],
+    relatedProducts: [
+      {
+        id: 1,
+        img: "/blogd1product1.jpeg",
+        name: "Quam sed",
+        price: 32.0,
+        oldPrice: 56.0,
+        rate: productRate.four,
+      },
+      {
+        id: 2,
+        img: "/blogd1product2.jpeg",
+        name: "Tristique sed",
+        price: 32.0,
+        oldPrice: 56.0,
+        rate: productRate.five,
+      },
+      {
+        id: 3,
+        img: "/blogd1product3.jpeg",
+        name: "A etiam",
+        price: 32.0,
+        oldPrice: 56.0,
+        rate: productRate.four,
+      },
+      {
+        id: 4,
+        img: "/blogd1product4.jpeg",
+        name: "Mi nisi",
+        price: 32.0,
+        oldPrice: 56.0,
+        rate: productRate.four,
+      },
+    ],
+  },
+  {
+    id: 2,
+    img: "/blogd2.jpg",
+    img1: "/blogd1.jpg",
+    video: "https://youtu.be/xLTCivIB4kU?si=-OHSh4imoqWQuBjx",
+    writer: "Surf Auxion",
+    date: "August 09 2020",
+    title: "Mauris at orci non vulputate diam tincidunt nec.",
+    abstract:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit facilisis quis auctor pretium ipsum, eu rutrum. Condimentum eu malesuada vitae ultrices in in neque, porta dignissim. Adipiscing purus, cursus vulputate id id dictum at.",
+    quete: `“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo dictum sapien, amet, consequat.
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo dictum sapien, amet, consequat
+    
+    toamk risusu”`,
+    p1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
+    p2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
+    p3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
+    p4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
+    link: "/blog/1",
+    categories: ["women", "hobbies"],
+    relatedProducts: [
+      {
+        id: 1,
+        img: "/blogd1product1.jpeg",
+        name: "Quam sed",
+        price: 32.0,
+        oldPrice: 56.0,
+        rate: productRate.four,
+      },
+      {
+        id: 2,
+        img: "/blogd1product2.jpeg",
+        name: "Tristique sed",
+        price: 32.0,
+        oldPrice: 56.0,
+        rate: productRate.five,
+      },
+      {
+        id: 3,
+        img: "/blogd1product3.jpeg",
+        name: "A etiam",
+        price: 32.0,
+        oldPrice: 56.0,
+        rate: productRate.four,
+      },
+      {
+        id: 4,
+        img: "/blogd1product4.jpeg",
+        name: "Mi nisi",
+        price: 32.0,
+        oldPrice: 56.0,
+        rate: productRate.four,
+      },
+    ],
+  },
+  {
+    id: 3,
+    img: "/blogd3.jpg",
+    img1: "/blogd1.jpg",
+    video: "https://youtu.be/xLTCivIB4kU?si=-OHSh4imoqWQuBjx",
+    writer: "Surf Auxion",
+    date: "August 09 2020",
+    title: "Mauris at orci non vulputate diam tincidunt nec.",
+    abstract:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit facilisis quis auctor pretium ipsum, eu rutrum. Condimentum eu malesuada vitae ultrices in in neque, porta dignissim. Adipiscing purus, cursus vulputate id id dictum at.",
+    quete: `“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo dictum sapien, amet, consequat.
+
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo dictum sapien, amet, consequat
+    
+    toamk risusu”`,
+    p1: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
+    p2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
+    p3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
+    p4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
+    link: "/blog/1",
+    categories: ["women", "hobbies"],
+    relatedProducts: [
+      {
+        id: 1,
+        img: "/blogd1product1.jpeg",
+        name: "Quam sed",
+        price: 32.0,
+        oldPrice: 56.0,
+        rate: productRate.four,
+      },
+      {
+        id: 2,
+        img: "/blogd1product2.jpeg",
+        name: "Tristique sed",
+        price: 32.0,
+        oldPrice: 56.0,
+        rate: productRate.five,
+      },
+      {
+        id: 3,
+        img: "/blogd1product3.jpeg",
+        name: "A etiam",
+        price: 32.0,
+        oldPrice: 56.0,
+        rate: productRate.four,
+      },
+      {
+        id: 4,
+        img: "/blogd1product4.jpeg",
+        name: "Mi nisi",
+        price: 32.0,
+        oldPrice: 56.0,
+        rate: productRate.four,
+      },
+    ],
+  },
+];
+
+export const blogsRecent = [
+  {
+    id: 1,
+    img: "/blogd1.jpg",
+    date: "August 09 2020",
+    title: "It is a long established fact",
+  },
+  {
+    id: 2,
+    img: "/blogd2.jpg",
+    date: "August 09 2020",
+    title: "It is a long established fact",
+  },
+  {
+    id: 3,
+    img: "/blogd3.jpg",
+    date: "August 09 2020",
+    title: "It is a long established fact",
+  },
+];
+
+export const blogsSale = [
+  {
+    id: 1,
+    img: "/sale1.jpg",
+    date: "August 09 2020",
+    title: "Elit ornare in enim mauris.",
+  },
+  {
+    id: 2,
+    img: "/sale2.jpg",
+    date: "August 09 2020",
+    title: "Elit ornare in enim mauris.",
+  },
+  {
+    id: 3,
+    img: "/sale3.jpg",
+    date: "August 09 2020",
+    title: "Elit ornare in enim mauris.",
+  },
+];
+
+export const blogProducts = [
+  {
+    id: 1,
+    img: "/blogProducts1.jpeg",
+    name: "Duis lectus est.",
+    price: 12.0,
+    oldPrice: 15.0,
+  },
+  {
+    id: 2,
+    img: "/blogProducts2.jpeg",
+    name: "Sed placerat.",
+    price: 12.0,
+    oldPrice: 15.0,
+  },
+  {
+    id: 3,
+    img: "/blogProducts3.jpeg",
+    name: "Netus proin.",
+    price: 12.0,
+    oldPrice: 15.0,
+  },
+  {
+    id: 4,
+    img: "/blogProducts4.jpeg",
+    name: "Platea in.",
+    price: 12.0,
+    oldPrice: 15.0,
+  },
+];

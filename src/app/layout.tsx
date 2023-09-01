@@ -11,20 +11,21 @@ export const inter = Inter({
   display: "swap",
 });
 
-export const roboto_mono = Roboto_Mono({
-  subsets: ["latin"],
-  display: "swap",
-});
+// export const roboto_mono = Roboto_Mono({
+//   subsets: ["latin"],
+//   display: "swap",
+// });
 
 const josefin = Josefin_Sans({
   subsets: ["latin"],
   display: "swap",
 });
 
-// const lato = Lato({
-//   subsets: ["latin"],
-//   display: "swap",
-// });
+export const lato = Lato({
+  weight: "400",
+  subsets: ["latin"],
+  display: "swap",
+});
 
 export const metadata = {
   title: "Hekto",
