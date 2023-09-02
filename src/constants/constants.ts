@@ -616,7 +616,8 @@ export const blogsDetailed = [
   {
     id: 1,
     img: "/blogd1.jpg",
-    img1: "/blogd1.jpg",
+    img1: "/blogd11.jpg",
+    img2: "/blogd12.jpg",
     video: "https://youtu.be/xLTCivIB4kU?si=-OHSh4imoqWQuBjx",
     writer: "Surf Auxion",
     date: "August 09 2020",
@@ -632,12 +633,12 @@ export const blogsDetailed = [
     p2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
     p3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
     p4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
-    link: "/blog/1",
+    link: "/blogs/1",
     categories: ["women", "hobbies"],
     relatedProducts: [
       {
         id: 1,
-        img: "/blogd1product1.jpeg",
+        img: "/blogd1product1.jpg",
         name: "Quam sed",
         price: 32.0,
         oldPrice: 56.0,
@@ -645,7 +646,7 @@ export const blogsDetailed = [
       },
       {
         id: 2,
-        img: "/blogd1product2.jpeg",
+        img: "/blogd1product2.jpg",
         name: "Tristique sed",
         price: 32.0,
         oldPrice: 56.0,
@@ -653,7 +654,7 @@ export const blogsDetailed = [
       },
       {
         id: 3,
-        img: "/blogd1product3.jpeg",
+        img: "/blogd1product3.jpg",
         name: "A etiam",
         price: 32.0,
         oldPrice: 56.0,
@@ -661,7 +662,7 @@ export const blogsDetailed = [
       },
       {
         id: 4,
-        img: "/blogd1product4.jpeg",
+        img: "/blogd1product4.jpg",
         name: "Mi nisi",
         price: 32.0,
         oldPrice: 56.0,
@@ -673,6 +674,7 @@ export const blogsDetailed = [
     id: 2,
     img: "/blogd2.jpg",
     img1: "/blogd1.jpg",
+    img2: "/blogd12.jpg",
     video: "https://youtu.be/xLTCivIB4kU?si=-OHSh4imoqWQuBjx",
     writer: "Surf Auxion",
     date: "August 09 2020",
@@ -688,12 +690,12 @@ export const blogsDetailed = [
     p2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
     p3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
     p4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
-    link: "/blog/1",
+    link: "/blogs/2",
     categories: ["women", "hobbies"],
     relatedProducts: [
       {
         id: 1,
-        img: "/blogd1product1.jpeg",
+        img: "/blogd1product1.jpg",
         name: "Quam sed",
         price: 32.0,
         oldPrice: 56.0,
@@ -701,7 +703,7 @@ export const blogsDetailed = [
       },
       {
         id: 2,
-        img: "/blogd1product2.jpeg",
+        img: "/blogd1product2.jpg",
         name: "Tristique sed",
         price: 32.0,
         oldPrice: 56.0,
@@ -709,7 +711,7 @@ export const blogsDetailed = [
       },
       {
         id: 3,
-        img: "/blogd1product3.jpeg",
+        img: "/blogd1product3.jpg",
         name: "A etiam",
         price: 32.0,
         oldPrice: 56.0,
@@ -717,7 +719,7 @@ export const blogsDetailed = [
       },
       {
         id: 4,
-        img: "/blogd1product4.jpeg",
+        img: "/blogd1product4.jpg",
         name: "Mi nisi",
         price: 32.0,
         oldPrice: 56.0,
@@ -729,7 +731,8 @@ export const blogsDetailed = [
     id: 3,
     img: "/blogd3.jpg",
     img1: "/blogd1.jpg",
-    video: "https://youtu.be/xLTCivIB4kU?si=-OHSh4imoqWQuBjx",
+    img2: "/blogd12.jpg",
+    video: "xLTCivIB4kU",
     writer: "Surf Auxion",
     date: "August 09 2020",
     title: "Mauris at orci non vulputate diam tincidunt nec.",
@@ -744,12 +747,12 @@ export const blogsDetailed = [
     p2: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
     p3: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
     p4: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, montes, lacus consequat integer viverra. Sit morbi etiam quam rhoncus. Velit in arcu platea donec vitae ante posuere malesuada.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Velit dapibus est, nunc, ",
-    link: "/blog/1",
+    link: "/blogs/3",
     categories: ["women", "hobbies"],
     relatedProducts: [
       {
         id: 1,
-        img: "/blogd1product1.jpeg",
+        img: "/blogd1product1.jpg",
         name: "Quam sed",
         price: 32.0,
         oldPrice: 56.0,
@@ -757,7 +760,7 @@ export const blogsDetailed = [
       },
       {
         id: 2,
-        img: "/blogd1product2.jpeg",
+        img: "/blogd1product2.jpg",
         name: "Tristique sed",
         price: 32.0,
         oldPrice: 56.0,
@@ -765,7 +768,7 @@ export const blogsDetailed = [
       },
       {
         id: 3,
-        img: "/blogd1product3.jpeg",
+        img: "/blogd1product3.jpg",
         name: "A etiam",
         price: 32.0,
         oldPrice: 56.0,
@@ -773,7 +776,7 @@ export const blogsDetailed = [
       },
       {
         id: 4,
-        img: "/blogd1product4.jpeg",
+        img: "/blogd1product4.jpg",
         name: "Mi nisi",
         price: 32.0,
         oldPrice: 56.0,
@@ -877,4 +880,23 @@ export const blogsTags = [
   { name: "Insas.", qty: 11 },
   { name: "Bibsaas", qty: 27 },
   { name: "Nulla.", qty: 22 },
+];
+
+export const blogsOther = [
+  {
+    id: 1,
+    img: "/blogdOther1.jpg",
+    date: "August 09 2020",
+    title: "Sapien ac",
+    abstract:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. At in vitae rutrum vulputate consectetur.",
+  },
+  {
+    id: 2,
+    img: "/blogdOther2.jpg",
+    date: "August 08 2020",
+    title: "Augue conva",
+    abstract:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. At in vitae rutrum vulputate consectetur.",
+  },
 ];

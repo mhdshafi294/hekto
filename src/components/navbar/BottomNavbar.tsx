@@ -60,13 +60,13 @@ const BottomNavbar = () => {
                 />
               </li>
               <Link
-                href="/pages"
+                href="/blogs"
                 className="text-indigo-950 text-base font-normal leading-tight cursor-pointer hover:text-pink-500"
               >
                 <li>Pages</li>
               </Link>
               <Link
-                href="/products"
+                href="/shop"
                 className="text-indigo-950 text-base font-normal leading-tight cursor-pointer hover:text-pink-500"
               >
                 <li>Products</li>

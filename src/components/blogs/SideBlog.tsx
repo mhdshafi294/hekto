@@ -51,13 +51,13 @@ const SideBlog = () => {
             d="M7.33333 12.6667C10.2789 12.6667 12.6667 10.2789 12.6667 7.33333C12.6667 4.38781 10.2789 2 7.33333 2C4.38781 2 2 4.38781 2 7.33333C2 10.2789 4.38781 12.6667 7.33333 12.6667Z"
             stroke="#CBCBE0"
             strokeLinecap="round"
-            stroke-linejoin="round"
+            strokeLinejoin="round"
           />
           <path
             d="M13.9996 14L11.0996 11.1"
             stroke="#CBCBE0"
             strokeLinecap="round"
-            stroke-linejoin="round"
+            strokeLinejoin="round"
           />
         </svg>
       </div>
@@ -75,7 +75,7 @@ const SideBlog = () => {
               className={`rounded-[3px] flex justify-start items-center p-2 gap-3  text-sm font-normal w-[122px] h-[30px] ${
                 category.name === selectedCategory
                   ? ` bg-pink-500 text-white`
-                  : `  bg-white text-indigo-800`
+                  : `  bg-white text-indigo-800 hover:border-2`
               }`}
             >
               {category.name}
@@ -92,7 +92,7 @@ const SideBlog = () => {
           return (
             <div
               key={blog.id}
-              className="flex justify-between items-center mb-[22px]"
+              className="flex justify-between items-center mb-[22px] hover:translate-x-1 duration-300"
             >
               <div className="w-[70px] h-[51px] mr-1 relative rounded-sm">
                 <Image
@@ -104,9 +104,12 @@ const SideBlog = () => {
                 />
               </div>
               <div>
-                <p className="w-[174px] text-indigo-800 text-sm font-normal">
+                <Link
+                  href={`/blogs/blog`}
+                  className="w-[174px] text-indigo-800 text-sm font-normal hover:text-pink-600"
+                >
                   {blog.title}
-                </p>
+                </Link>
                 <p
                   className={`${lato.className} text-slate-400 text-[11px] font-semibold`}
                 >
@@ -125,7 +128,7 @@ const SideBlog = () => {
           return (
             <div
               key={blog.id}
-              className="flex justify-between items-center mb-[22px]"
+              className="flex justify-between items-center mb-[22px] hover:translate-x-1 duration-300"
             >
               <div className="w-[70px] h-[51px] mr-1 relative rounded-sm">
                 <Image
@@ -137,9 +140,12 @@ const SideBlog = () => {
                 />
               </div>
               <div>
-                <p className="w-[174px] text-indigo-800 text-sm font-normal">
+                <Link
+                  href={`/blogs/blog`}
+                  className="w-[174px] text-indigo-800 text-sm font-normal hover:text-pink-600"
+                >
                   {blog.title}
-                </p>
+                </Link>
                 <p
                   className={`${lato.className} text-slate-400 text-[11px] font-semibold`}
                 >
@@ -156,7 +162,10 @@ const SideBlog = () => {
       <div className="grid grid-cols-2 gap-x-[15px] gap-y-[30px]">
         {blogProducts.map((product) => {
           return (
-            <div key={product.id} className="flex flex-col items-center">
+            <div
+              key={product.id}
+              className="flex flex-col items-center hover:scale-105 duration-300"
+            >
               <div className="w-[126px] h-20 mr-1 relative rounded-sm">
                 <Image
                   src={product.img}
@@ -169,7 +178,7 @@ const SideBlog = () => {
               <div>
                 <Link
                   href={`/shop/product`}
-                  className={`${lato.className} text-center text-violet-950 text-sm font-semibold mt-[9px] mb-[6px]`}
+                  className={`${lato.className} text-center text-violet-950 text-sm font-semibold mt-[9px] mb-[6px] hover:text-pink-600`}
                 >
                   {product.name}
                 </Link>
@@ -191,7 +200,7 @@ const SideBlog = () => {
       <div className="ml-[11px] flex justify-start items-center gap-[14px]">
         <Link
           href="/"
-          className="w-[25px] h-[25px] bg-blue-800 rounded-full text-[16px] flex justify-center items-center text-white hover:scale-125 duration-300"
+          className="w-[25px] h-[25px] bg-blue-800 rounded-full text-[16px] flex justify-center items-center text-white hover:scale-125 duration-300 "
         >
           <BiLogoFacebook />
         </Link>
@@ -216,7 +225,7 @@ const SideBlog = () => {
           return (
             <button
               key={tag.name}
-              className={` text-base font-normal underline ${
+              className={` text-base font-normal underline hover:text-pink-700 ${
                 selectedTag === tag.name ? "text-pink-500" : "text-violet-950"
               }`}
               onClick={() => {
