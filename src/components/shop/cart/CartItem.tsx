@@ -69,14 +69,14 @@ const CartItem: React.FC<CartItemProps> = ({
                   d="M7.8002 4.19995L4.2002 7.79995"
                   stroke="white"
                   stroke-width="2"
-                  stroke-linecap="round"
+                  strokeLinecap="round"
                   stroke-linejoin="round"
                 />
                 <path
                   d="M4.2002 4.19995L7.8002 7.79995"
                   stroke="white"
                   stroke-width="2"
-                  stroke-linecap="round"
+                  strokeLinecap="round"
                   stroke-linejoin="round"
                 />
               </svg>

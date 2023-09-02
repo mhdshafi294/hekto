@@ -2,12 +2,8 @@ import Brands from "@/components/Brands";
 import ContainerBody from "@/components/ContainerBody";
 import PageTitle from "@/components/PageTitle";
 import Blog from "@/components/blogs/Blog";
-import {
-  blogsDetailed,
-  blogsRecent,
-  blogsSale,
-  blogProducts,
-} from "@/constants/constants";
+import SideBlog from "@/components/blogs/SideBlog";
+import { blogsDetailed } from "@/constants/constants";
 import Link from "next/link";
 
 const Blogs = () => {
@@ -57,7 +53,7 @@ const Blogs = () => {
             </div>
           </div>
 
-          <div className="w-[270px]"></div>
+          <SideBlog />
         </div>
       </ContainerBody>
 

@@ -72,7 +72,7 @@ const BottomNavbar = () => {
                 <li>Products</li>
               </Link>
               <Link
-                href="/blog"
+                href="/blogs"
                 className="text-indigo-950 text-base font-normal leading-tight cursor-pointer hover:text-pink-500"
               >
                 <li>Blog</li>

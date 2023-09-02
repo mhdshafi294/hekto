@@ -786,20 +786,26 @@ export const blogsDetailed = [
 export const blogsRecent = [
   {
     id: 1,
-    img: "/blogd1.jpg",
+    img: "/recent1.jpg",
     date: "August 09 2020",
     title: "It is a long established fact",
   },
   {
     id: 2,
-    img: "/blogd2.jpg",
-    date: "August 09 2020",
+    img: "/recent2.jpg",
+    date: "August 08 2020",
     title: "It is a long established fact",
   },
   {
     id: 3,
-    img: "/blogd3.jpg",
-    date: "August 09 2020",
+    img: "/recent3.jpg",
+    date: "August 08 2020",
+    title: "It is a long established fact",
+  },
+  {
+    id: 4,
+    img: "/recent4.jpg",
+    date: "August 07 2020",
     title: "It is a long established fact",
   },
 ];
@@ -828,30 +834,47 @@ export const blogsSale = [
 export const blogProducts = [
   {
     id: 1,
-    img: "/blogProducts1.jpeg",
+    img: "/blogProducts1.jpg",
     name: "Duis lectus est.",
     price: 12.0,
     oldPrice: 15.0,
   },
   {
     id: 2,
-    img: "/blogProducts2.jpeg",
+    img: "/blogProducts2.jpg",
     name: "Sed placerat.",
     price: 12.0,
     oldPrice: 15.0,
   },
   {
     id: 3,
-    img: "/blogProducts3.jpeg",
+    img: "/blogProducts3.jpg",
     name: "Netus proin.",
     price: 12.0,
     oldPrice: 15.0,
   },
   {
     id: 4,
-    img: "/blogProducts4.jpeg",
+    img: "/blogProducts4.jpg",
     name: "Platea in.",
     price: 12.0,
     oldPrice: 15.0,
   },
+];
+
+export const blogsCategories = [
+  { name: "Hobbies", qty: 17 },
+  { name: "Women", qty: 21 },
+  { name: "Men", qty: 11 },
+  { name: "House", qty: 27 },
+  { name: "Fun", qty: 22 },
+  { name: "Backyard", qty: 15 },
+];
+
+export const blogsTags = [
+  { name: "General", qty: 17 },
+  { name: "Atsanil", qty: 21 },
+  { name: "Insas.", qty: 11 },
+  { name: "Bibsaas", qty: 27 },
+  { name: "Nulla.", qty: 22 },
 ];
