@@ -1,12 +1,13 @@
 "use client";
 
+import Image from "next/image";
+
 import { useForm, SubmitHandler } from "react-hook-form";
 
 import ContainerBody from "@/components/ContainerBody";
 import PageTitle from "@/components/PageTitle";
 
 import { lato } from "../layout";
-import Image from "next/image";
 
 type Inputs = {
   name: string;
@@ -15,7 +16,7 @@ type Inputs = {
   massage: string;
 };
 
-const page = () => {
+const Contact = () => {
   const {
     register,
     handleSubmit,
@@ -241,4 +242,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Contact;

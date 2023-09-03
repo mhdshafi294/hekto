@@ -26,9 +26,9 @@ const BottomNavbar = () => {
       },
     },
     {
-      name: "Shop",
+      name: "faq",
       action: () => {
-        router.push("/shop");
+        router.push("/faq");
       },
     },
     {
