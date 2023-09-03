@@ -159,7 +159,10 @@ const Blog = (props: any) => {
             <div className="flex justify-between items-start">
               {blog.relatedProducts.map((item, index) => {
                 return (
-                  <div key={item.id} className="w-[210px]">
+                  <div
+                    key={item.id}
+                    className="w-[210px] hover:translate-y-1 duration-300"
+                  >
                     <div className="w-[210px] h-[255px] relative mb-[15px]">
                       <Image
                         src={item.img}

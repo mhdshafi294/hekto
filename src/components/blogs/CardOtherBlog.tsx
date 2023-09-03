@@ -18,7 +18,7 @@ const CardOtherBlog: React.FC<CardOtherBlogProps> = ({
   abstract,
 }) => {
   return (
-    <div className="w-[668px] h-[137px] bg-white shadow mb-[30px] px-[14px] py-[12px] flex items-center gap-[15px] hover:-translate-y-1 duration-200">
+    <div className="w-[668px] h-[137px] bg-white shadow mb-[30px] px-[14px] py-[12px] flex items-center gap-[15px] hover:translate-x-1 duration-200">
       <div className="w-[103px] h-[107px] relative">
         <Image
           src={img}
