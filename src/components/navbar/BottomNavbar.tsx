@@ -6,7 +6,8 @@ import Link from "next/link";
 
 import ContainerNav from "../ContainerNav";
 import DropDownMenu from "../DropDownMenu";
-import Search from "./Search";
+
+import Search from "./../Search";
 
 const BottomNavbar = () => {
   const router = useRouter();
