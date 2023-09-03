@@ -68,14 +68,14 @@ const CartItem: React.FC<CartItemProps> = ({
                 <path
                   d="M7.8002 4.19995L4.2002 7.79995"
                   stroke="white"
-                  stroke-width="2"
+                  strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 />
                 <path
                   d="M4.2002 4.19995L7.8002 7.79995"
                   stroke="white"
-                  stroke-width="2"
+                  strokeWidth="2"
                   strokeLinecap="round"
                   strokeLinejoin="round"
                 />

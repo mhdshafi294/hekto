@@ -489,9 +489,9 @@ const Blog = (props: any) => {
                     <path
                       d="M12.957 3.98108L7.33787 7.91446L1.71875 3.98108"
                       stroke="white"
-                      stroke-width="1.12382"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeWidth="1.12382"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     />
                   </svg>
                   <input
@@ -538,7 +538,7 @@ const Blog = (props: any) => {
                 time I comment.
               </label>
               <button
-                className="w-[697.89px] h-[49.45px] bg-pink-500 hover:bg-pink-600 rounded-sm flex justify-center items-center text-white text-lg font-semibold mt-[47px] "
+                className="w-[698px] h-[50px] bg-pink-500 hover:bg-pink-600 rounded-sm flex justify-center items-center text-white text-lg font-semibold mt-[47px] "
                 type="submit"
               >
                 Continue Shipping
