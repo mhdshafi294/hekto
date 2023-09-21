@@ -87,11 +87,9 @@ const Blogs = () => {
               </Link>
             </div>
           </div>
-
           <SideBlog />
         </div>
       </ContainerBody>
-
       <Brands />
     </div>
   );
