@@ -70,6 +70,7 @@ const Cart = () => {
             <div className="w-full mt-[48px]">
               {products1.map((product, index) => {
                 if (cartItems[product.id] !== 0) {
+                  console.log(cartItems);
                   return <CartItem key={index} {...product} />;
                 }
               })}
